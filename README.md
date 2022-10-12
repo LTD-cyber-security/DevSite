@@ -6,8 +6,6 @@
   Github DevSite
 </h1>
 
-<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/estevam5s/estevam5s" /> <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/estevam5s/estevam5s" /> <img alt="" src="https://img.shields.io/github/repo-size/estevam5s/estevam5s" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/estevam5s/estevam5s" /> <img alt="GitHub Closed Issues" src="https://img.shields.io/github/issues-closed/estevam5s/estevam5s" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/estevam5s/estevam5s" /> <img alt="GitHub Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/estevam5s/estevam5s" /> <img alt="GitHub Package.json Version" src="https://img.shields.io/github/package-json/v/estevam5s/estevam5s" /> <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/estevam5s/estevam5s" /> <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/estevam5s/estevam5s" /> <img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/estevam5s/estevam5s" /> <img alt="GitHub Commit Activity (Month)" src="https://img.shields.io/github/commit-activity/m/estevam5s/estevam5s" /> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/estevam5s/estevam5s" /> <img alt="Github License" src="https://img.shields.io/github/license/estevam5s/estevam5s" />
-
 <p align="center">
     <a href="https://" target="blank">View Demo</a>
     ·
