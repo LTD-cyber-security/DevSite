@@ -552,7 +552,7 @@ A seguir estão os serviços de implantação online recomendados que são testa
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/LTD-cyber-security/DevSite)
     
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/NBfBbp?referralCode=km83_N)
+<!-- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/NBfBbp?referralCode=km83_N) -->
 
 [![Deploy with Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FLTD-cyber-security%2FDevSite%2Fmain%2Fazuredeploy.json)
 
