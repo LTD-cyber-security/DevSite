@@ -81,9 +81,9 @@ Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github
     <img src="https://thumbs.gfycat.com/VigorousMintyArchaeocete-size_restricted.gif" alt="DevSite" width="600">
 </h1>
 
-- ⚡️ Next.js 12 (Versão 1.0.0)
-- ⚛️ React 18 (Versão 1.0.0)
-- ⛑ TypeScript
+- ⚡️ Next.js 12 (Versão 1.0.0 -> Projeto em desenvolvimento 🚧)
+- ⚛️ React 18 (Versão 1.0.0 -> Projeto em desenvolvimento 🚧)
+- ⛑ TypeScript - SuperSet do JavaScript (Versão 1.0.0 -> Projeto em desenvolvimento 🚧)
 - 📏 ESLint — Para encontrar e corrigir problemas em seu código
 - 💖 Prettier — Formatador de código para estilo consistente
 - 🛍️ vscode — Editor de código recomendado
@@ -176,17 +176,18 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 ``` js
 
     .
-    ├── node_modules
     ├── assets
-    ├── build
-    ├── doc
     ├── forms
+    ├── node_modules
     ├── public
         ├── images
-            └── images.ng
+            └── images.png
     ├── src
+        ├── assets
         ├── routes
             └── server.ts
+        ├── index.css
+        └── my-element.ts
     ├── .editorconfig
     ├── .eslintignore
     ├── .eslintrc
@@ -195,18 +196,30 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
     ├── .nvimrc
     ├── .prettierignore
     ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
-    ├── .prettierrc
+    ├── .remarkrc.js
+    ├── babel.config.js
+    ├── CHANGELOG.md
+    ├── changelog.txt
+    ├── CODE_OF_CONDUCT.md
+    ├── index.html
+    ├── inner-page.html
     ├── LICENSE
+    ├── lint-staged.config.js
+    ├── netlify.toml
+    ├── next-env.d.ts
+    ├── next.config.js
+    ├── nodemon-debug.json
+    ├── nodemon.json
     ├── package-lock.json
     ├── package.json
-    └── README.md
+    ├── portfolio-details.html
+    ├── README.md
+    ├── Readme.txt
+    ├── security.txt
+    ├── tsconfig.json
+    ├── tscconfig.spec.json
+    ├── tslint.json
+    └── vite.config.ts
 
 ```
 
@@ -216,29 +229,94 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+4. **`assets`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+5. **`forms`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+6. **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+7. **`public`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+8. **`images`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+9. **`images.png`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+10. **`src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+11. **`assets`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+12. **`routes`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+13. **`server.ts`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+14. **`index.css`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+15. **`my-element.ts`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+
+16. **`.editorconfig`**
+
+17. **`.eslintignore`**
+
+18. **`.eslintrc`**
+
+19. **`.gittattributes`**
+
+20. **`.gitignore`**
+
+21. **`.nvimrc`**
+
+22. **`.prettierignore`**
+
+23. **`.prettierrc`**
+
+24. **`.remarkrc.js`**
+
+25. **`babel.config.js`**
+
+26. **`CHANGELOG.md`**
+
+27. **`changelog.txt`**
+
+28. **`CODE_OF_CONDUCT.md`**
+
+29. **`index.html`**
+
+30. **`inner-page.html`**
+
+31. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+
+32. **`lint-staged.config.js`**
+
+33. **`netlify.toml`**
+
+34. **`next-env.d.ts`**
+
+35. **`next.config.js`**
+
+36. **`nodemon-debug.json`**
+
+37. **`nodemon.json`**
+
+38. **`package-lock.json`**
+
+39. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+40. **`portfolio-details.html`**
+
+41. **`README.md`**: A text file containing useful reference information about your project.
+
+42. **`Readme.txt`**
+
+43. **`security.txt`**
+
+44. **`tsconfig.json`**
+
+45. **`tscconfig.spec.json`**
+
+46. **`tslint.json`**
+
+47. **`vite.config.ts`**
+
 
 4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
@@ -249,12 +327,6 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
 8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering. -->
-
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
 
 ***
 
@@ -379,14 +451,81 @@ Then:
 
 Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você tem a versão correta do nó, então execute `yarn install` para instalar todas as dependências.
 
+### O package.json
+
+```json
+{
+  "type": "module",
+  "name": "dev-site",
+  "private": false,
+  "description": "Organização sobre informações de cyber segurança para as pessoas mais vulneráveis (tendo em foco pessoas idosas).",
+  "version": "0.0.1",
+  "author": "LTD-cyber-security <noreply@comunica.estacio.br>",
+  "main": "dist/my-element.es.js",
+  "exports": {
+    ".": "./dist/my-element.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "lit": "^2.3.1"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0",
+    "gh-pages": "^3.1.0",
+    "prettier": "2.0.5"
+  },
+
+  "keywords": [
+    "github",
+    "profile",
+    "readme"
+  ],
+  "license": "0BSD",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LTD-cyber-security/DevSite"
+  },
+  "bugs": {
+    "url": "https://github.com/LTD-cyber-security/DevSite/issues"
+  }
+
+}
+
+```
+
+#### Start the project
+
+Para Baixar todas as dependências do projeto, execute o comando:
+
+```bash
+yarn install
+# or
+npm install
+# or
+npm i
+```
+
 #### Start the project
 
 Para executar o cli do projeto localmente:
 
 ```bash
-npm start
+yarn dev
 # or
-yarn start
+npm run dev
 ```
 
 #### Build the project for production
