@@ -6,6 +6,28 @@
   Github DevSite
 </h1>
 
+<!-- adicionando badges -->
+<p align="center">
+    <img alt="Issues" src="https://img.shields.io/github/issues/LTD-cyber-security/DevSite">
+    <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/LTD-cyber-security/DevSite">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/LTD-cyber-security/DevSite">
+    <img alt="GitHub Count" src="https://img.shields.io/github/languages/count/LTD-cyber-security/DevSite">
+    <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=LTD-cyber-security&color=blueviolet">
+    <a href="https://twitter.com/LTDcybersec">
+        <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/LTDcybersec?style=social">
+    </a>
+    <a href="https://ltd-cyber-security.github.io/DevSite/">
+        <img alt="Github Page" src="https://img.shields.io/badge/Github%20Page-DevSite-blue">
+    </a>
+    <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/LTD-cyber-security/DevSite">
+    <img alt="GitHub" src="https://img.shields.io/github/license/LTD-cyber-security/DevSite">
+    <img alt="Forks" src="https://img.shields.io/github/forks/LTD-cyber-security/DevSite">
+    <img alt="Stars" src="https://img.shields.io/github/stars/LTD-cyber-security/DevSite">
+    <img alt="License" src="https://img.shields.io/github/license/LTD-cyber-security/DevSite">
+    <!-- <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/LTD-cyber-security/DevSite"> -->
+    <!-- <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/LTD-cyber-security/DevSite/CI"> -->
+</p>
+
 <p align="center">
     <a href="https://" target="blank">View Demo</a>
     ·
