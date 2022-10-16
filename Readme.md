@@ -442,7 +442,7 @@ Then:
 
 Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você tem a versão correta do nó, então execute `yarn install` para instalar todas as dependências.
 
-### O package.json
+### package.json
 
 ```json
 
