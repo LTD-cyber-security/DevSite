@@ -22,10 +22,42 @@
     <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/LTD-cyber-security/DevSite">
     <img alt="GitHub" src="https://img.shields.io/github/license/LTD-cyber-security/DevSite">
     <img alt="Forks" src="https://img.shields.io/github/forks/LTD-cyber-security/DevSite">
+    <a href="https://discord.gg/6Z2Z5Z">
+        <img alt="Discord" src="https://img.shields.io/discord/715000000000000000?color=blue&label=Discord&logo=Discord&logoColor=white">
+    </a>
     <img alt="Stars" src="https://img.shields.io/github/stars/LTD-cyber-security/DevSite">
     <img alt="License" src="https://img.shields.io/github/license/LTD-cyber-security/DevSite">
-    <!-- <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/LTD-cyber-security/DevSite"> -->
-    <!-- <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/LTD-cyber-security/DevSite/CI"> -->
+    <a href="https://www.npmjs.com/package/create-prisma-generator"><img src="https://img.shields.io/npm/v/create-prisma-generator.svg?style=flat" /></a>
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LTD-cyber-security/DevSite">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/LTD-cyber-security/DevSite">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LTD-cyber-security/DevSite">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/LTD-cyber-security/DevSite">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/LTD-cyber-security/DevSite">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/LTD-cyber-security/DevSite">
+    <a href="https://nextjs.org">
+    <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/next?filename=frontend/package.json&color=fff&labelColor=000&logo=nextdotjs&style=flat-square">
+    </a>
+    <a href="https://17.reactjs.org/">
+        <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/react?filename=frontend/package.json&color=5fd9fb&logo=react&labelColor=222435&style=flat-square">
+    </a>
+    <a href="https://redux-toolkit.js.org/">
+        <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/@reduxjs/toolkit?filename=frontend/package.json&label=redux-toolkit&color=593d88&logo=redux&labelColor=242526&style=flat-square&logoColor=b58bf7">
+    </a>
+    <a href="https://tailwindcss.com/">
+        <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/dev/tailwindcss?filename=frontend/package.json&color=37b8f1&logo=tailwindcss&labelColor=0b1120&style=flat-square&logoColor=38bdf8">
+    </a>
+    <a href="https://www.typescriptlang.org/">
+        <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/dev/typescript?filename=frontend/package.json&color=3178c6&logo=typescript&labelColor=0b1120&style=flat-square&logoColor=3178c6">
+    </a>
+    <a href="https://eslint.org/">
+        <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/dev/eslint?filename=frontend/package.json&color=4b32c3&logo=eslint&labelColor=0b1120&style=flat-square&logoColor=4b32c3">
+    </a>
+    <a href="https://prettier.io/">
+        <img src="https://img.shields.io/github/package-json/dependency-version/chirag-droid/animeflix/dev/prettier?filename=frontend/package.json&color=f7b93e&logo=prettier&labelColor=0b1120&style=flat-square&logoColor=f7b93e">
+    </a>
+    <a href="https://api.netlify.com/api/v1/badges/ac85a3a2-c06d-4e69-98ce-40c2190db198/deploy-status">
+        <img src="https://api.netlify.com/api/v1/badges/ac85a3a2-c06d-4e69-98ce-40c2190db198/deploy-status">
+    </a>
 </p>
 
 <p align="center">
