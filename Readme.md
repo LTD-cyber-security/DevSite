@@ -333,7 +333,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 9. **`.gittattributes`** : Este arquivo contém configurações para o Git. Você pode ler mais sobre o Git [aqui](https://git-scm.com/).
 
-10.  **`.gitignore`**: Este arquivo contém uma série de nomes de arquivos e pastas que o Git deve ignorar. Caso você faça alterações em um arquivo que está listado no arquivo .gitignore, o Git não irá rastrear essas alterações. Você pode ler mais sobre o Git [aqui](https://git-scm.com/). Caso faça o deploy do seu site no Netlify, você pode ignorar o arquivo .gitignore.
+10.  **`.gitignore`** : Este arquivo contém uma série de nomes de arquivos e pastas que o Git deve ignorar. Caso você faça alterações em um arquivo que está listado no arquivo .gitignore, o Git não irá rastrear essas alterações. Você pode ler mais sobre o Git [aqui](https://git-scm.com/). Caso faça o deploy do seu site no Netlify, você pode ignorar o arquivo .gitignore.
 
 11. **`.nvimrc`** : Este é um arquivo de configuração para o Neovim. Você pode ler mais sobre o Neovim [aqui](https://neovim.io/).
 
@@ -373,7 +373,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 29. **`package.json`**: Um arquivo de manifesto para projetos Node.js, que inclui coisas como metadados (o nome do projeto, autor etc.). Este manifesto é como o npm sabe quais pacotes instalar para seu projeto.
 
-30. **`portfolio-details.html`**
+30. **`portfolio-details.html`** : Este é o arquivo principal do seu site. Ele contém todo o código HTML do seu site. Você pode ler mais sobre o HTML [aqui](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
 31. **`README.md`**: Um arquivo de texto contendo informações úteis de referência sobre seu projeto. Esse arquivo é exibido por padrão quando alguém visita a página do GitHub do seu projeto. Você pode ler mais sobre o README [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). Geralmente é usado para a documentação do projeto. Caso você faça o deploy do seu site no Netlify, você pode ignorar o arquivo README.md. Se o dev que está lendo este arquivo não sabe o que é o README.md, ele pode ler mais sobre o README [aqui](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 
