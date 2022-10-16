@@ -247,6 +247,24 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
     .
     ├── assets
+    ├── __helpers__
+        ├── loadershim.ts
+        └── setup.ts
+    ├── .github
+        ├── workflows
+            ├── codeql-analysis.yml
+            ├── codescan.yml
+            ├── dependency-review.yml
+            ├── eslint.yml
+            ├── git-auto-commit-action.yml
+            ├── snyk-container.yml
+            └── todoist.yml
+    ├── .husky
+        ├── .gitignore
+        ├── commit-msg
+        ├── common.sh
+        └── pre-commit
+    ├── .husky
     ├── forms
     ├── node_modules
     ├── public
@@ -371,7 +389,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 37. **`vite.config.ts`** : este é um arquivo de configuração para o Vite. Se o Dev iniciar um novo projeto, o comando na qual ele deverá utilizar no terminal é o `npm init vite@latest`. Ao rodar o comando no terminal `npm run dev`, o Vite é usado para iniciar o servidor de desenvolvimento. Você pode ler mais sobre o Vite [aqui](https://vitejs.dev/).
 
-38  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+38.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
 <!-- 5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
