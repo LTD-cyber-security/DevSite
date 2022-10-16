@@ -311,7 +311,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 7. **`.eslintignore`** : Este é um arquivo de configuração para o ESLint. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o ESLint [aqui](https://eslint.org/). Você pode ler mais sobre o ESLint [aqui](https://eslint.org/).
 
-8. **`.eslintrc`** :
+8. **`.eslintrc`** : Este é um arquivo de configuração para o ESLint. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o ESLint [aqui](https://eslint.org/). Você pode ler mais sobre o ESLint [aqui](https://eslint.org/).
 
 9. **`.gittattributes`** : Este arquivo contém configurações para o Git. Você pode ler mais sobre o Git [aqui](https://git-scm.com/).
 
@@ -333,7 +333,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 18. **`CODE_OF_CONDUCT.md`** : Este é um arquivo de conduta de código de conduta. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o código de conduta [aqui](https://www.contributor-covenant.org/).
 
-19 **`index.html`** : Este é o arquivo principal do seu site. Ele contém todo o código HTML do seu site. Você pode ler mais sobre o HTML [aqui](https://developer.mozilla.org/en-US/docs/Web/HTML).
+19. **`index.html`** : Este é o arquivo principal do seu site. Ele contém todo o código HTML do seu site. Você pode ler mais sobre o HTML [aqui](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
 20. **`inner-page.html`** : Este é o arquivo principal do seu site. Ele contém todo o código HTML do seu site. Você pode ler mais sobre o HTML [aqui](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
