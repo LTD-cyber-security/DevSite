@@ -1,5 +1,7 @@
+<h1 align="center">
+    <img src="https://miro.medium.com/max/820/1*Y4Td-XMRtuFAW_8CpO7KyA.png" alt="DevSite" width="2000">
+</h1>
 
-<<<<<<< HEAD:Readme.md
 <h1 align="center">
   Github DevSite
 </h1>
@@ -690,5 +692,3 @@ Procurando mais orientação? Documentação completa para as lives de Gatsby [n
 - **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com Gatsby](https://www.gatsbyjs.com/tutorial/).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
 
 - **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://www.gatsbyjs.com/docs/).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
-=======
->>>>>>> af6dc9b93e7ff1c42d969889c9a93026f961a286:README.md
