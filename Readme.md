@@ -555,6 +555,31 @@ npm test
 yarn test
 ```
 
+#### Run the linter
+
+```bash
+npm run lint
+#or
+yarn lint
+```
+
+#### Run the formatter
+
+```bash
+npm run format
+#or
+yarn format
+```
+
+#### Run the type checker
+
+```bash
+npm run type-check
+#or
+yarn type-check
+```
+
+
 Você pode adicionar o sinalizador `--watch` se quiser continuar observando as alterações feitas nos arquivos de teste.
 
 ***
