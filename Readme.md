@@ -297,79 +297,79 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 ```
 1
-1. **`assets`**: a pasta assets contém todos os arquivos de mídia, como imagens, ícones, vídeos, etc.
+1. **`assets`**: A pasta assets contém todos os arquivos de mídia, como imagens, ícones, vídeos, etc.
 
-2. **`forms`**: a pasta forms contém todos os arquivos de formulário, como formulários de contato, formulários de inscrição, etc. Esses arquivos são usados ​​para enviar dados para o servidor.
+2. **`forms`**: A pasta forms contém todos os arquivos de formulário, como formulários de contato, formulários de inscrição, etc. Esses arquivos são usados ​​para enviar dados para o servidor.
 
-3.  **`/node_modules`**: esta pasta contém todos os módulos de código do npm que o projeto depende. (geralmente, não é necessário ver o código dentro desta pasta). Vem quando você executa `npm install`. Você pode excluir esta pasta e executar `npm install` novamente para recriá-la. Você também pode executar `npm install <module_name>` para instalar apenas um módulo. Você pode ler mais sobre o npm [aqui](https://docs.npmjs.com/).
+3.  **`/node_modules`**: Esta pasta contém todos os módulos de código do npm que o projeto depende. (geralmente, não é necessário ver o código dentro desta pasta). Vem quando você executa `npm install`. Você pode excluir esta pasta e executar `npm install` novamente para recriá-la. Você também pode executar `npm install <module_name>` para instalar apenas um módulo. Você pode ler mais sobre o npm [aqui](https://docs.npmjs.com/).
 
-4. **`public`**: a pasta assets contém todos os arquivos de mídia, como imagens, ícones, vídeos, etc. São usados para criar páginas estáticas. Está sendo usado pelo Gatsby. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
+4. **`public`**: A pasta assets contém todos os arquivos de mídia, como imagens, ícones, vídeos, etc. São usados para criar páginas estáticas. Está sendo usado pelo Gatsby. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
 
-5.  **`/src`**: esta pasta contém todo o código relacionado ao que você vê no front-end do site (o que você vê no navegador) - código HTML, CSS, JavaScript, TypeScript, etc. Este é o único diretório que você precisa para criar um site Gatsby. Vem quando você executa `gatsby new <project_name>`. Você pode excluir esta pasta e executar `gatsby new <project_name>` novamente para recriá-la. Você também pode executar `gatsby new <project_name> <starter_url>` para instalar um modelo de site. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
+5.  **`/src`**: Esta pasta contém todo o código relacionado ao que você vê no front-end do site (o que você vê no navegador) - código HTML, CSS, JavaScript, TypeScript, etc. Este é o único diretório que você precisa para criar um site Gatsby. Vem quando você executa `gatsby new <project_name>`. Você pode excluir esta pasta e executar `gatsby new <project_name>` novamente para recriá-la. Você também pode executar `gatsby new <project_name> <starter_url>` para instalar um modelo de site. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
 
-6. **`.editorconfig`** : este é um arquivo de configuração para o EditorConfig. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o EditorConfig [aqui](https://editorconfig.org/). Você pode ler mais sobre o EditorConfig [aqui](https://editorconfig.org/).
+6. **`.editorconfig`** : Este é um arquivo de configuração para o EditorConfig. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o EditorConfig [aqui](https://editorconfig.org/). Você pode ler mais sobre o EditorConfig [aqui](https://editorconfig.org/).
 
-7. **`.eslintignore`** : este é um arquivo de configuração para o ESLint. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o ESLint [aqui](https://eslint.org/). Você pode ler mais sobre o ESLint [aqui](https://eslint.org/).
+7. **`.eslintignore`** : Este é um arquivo de configuração para o ESLint. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o ESLint [aqui](https://eslint.org/). Você pode ler mais sobre o ESLint [aqui](https://eslint.org/).
 
 8. **`.eslintrc`** :
 
-9. **`.gittattributes`** : este arquivo contém configurações para o Git. Você pode ler mais sobre o Git [aqui](https://git-scm.com/).
+9. **`.gittattributes`** : Este arquivo contém configurações para o Git. Você pode ler mais sobre o Git [aqui](https://git-scm.com/).
 
-10.  **`.gitignore`**: este arquivo contém uma série de nomes de arquivos e pastas que o Git deve ignorar. Caso você faça alterações em um arquivo que está listado no arquivo .gitignore, o Git não irá rastrear essas alterações. Você pode ler mais sobre o Git [aqui](https://git-scm.com/). Caso faça o deploy do seu site no Netlify, você pode ignorar o arquivo .gitignore.
+10.  **`.gitignore`**: Este arquivo contém uma série de nomes de arquivos e pastas que o Git deve ignorar. Caso você faça alterações em um arquivo que está listado no arquivo .gitignore, o Git não irá rastrear essas alterações. Você pode ler mais sobre o Git [aqui](https://git-scm.com/). Caso faça o deploy do seu site no Netlify, você pode ignorar o arquivo .gitignore.
 
-11. **`.nvimrc`**
+11. **`.nvimrc`** : Este é um arquivo de configuração para o Neovim. Você pode ler mais sobre o Neovim [aqui](https://neovim.io/).
 
-12. **`.prettierignore`**
+12. **`.prettierignore`** : Este é um arquivo de configuração para o Prettier. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o Prettier [aqui](https://prettier.io/).
 
-13. **`.prettierrc`**
+13. **`.prettierrc`** : Este é um arquivo de configuração para o Prettier. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o Prettier [aqui](https://prettier.io/).
 
-14. **`.remarkrc.js`**
+14. **`.remarkrc.js`** : Uma ferramenta de apresentação de slides simples, no navegador e orientada a Markdown, destinada a pessoas que conhecem HTML e CSS, apresentando uma sintaxe de apresentação de slides simples e fácil de usar. Você pode ler mais sobre o Remark [aqui](https://remarkjs.com/).
 
-15. **`babel.config.js`**
+15. **`babel.config.js`** : Este é um arquivo para o babel que ajuda a converter o código ES6+ em um código que o navegador entenda. Você pode ler mais sobre o Babel [aqui](https://babeljs.io/).
 
-16. **`CHANGELOG.md`**
+16. **`CHANGELOG.md`** : Este arquivo contém todas as alterações feitas no projeto. Com isso, você pode ver o que foi alterado em cada versão do projeto. Você pode ler mais sobre o CHANGELOG [aqui](https://keepachangelog.com/en/1.0.0/).
 
-17. **`changelog.txt`**
+17. **`changelog.txt`** : O arquivo changelog, também conhecido como log de alterações, é um arquivo de texto que contém uma lista cronológica de todas as alterações significativas feitas em um projeto. Caso o log de alterações seja mantido, você pode ver o que foi alterado em cada versão do projeto. Você pode ler mais sobre o CHANGELOG [aqui](https://keepachangelog.com/en/1.0.0/).
 
-18. **`CODE_OF_CONDUCT.md`**
+18. **`CODE_OF_CONDUCT.md`** : Este é um arquivo de conduta de código de conduta. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o código de conduta [aqui](https://www.contributor-covenant.org/).
 
-19 **`index.html`**
+19 **`index.html`** : Este é o arquivo principal do seu site. Ele contém todo o código HTML do seu site. Você pode ler mais sobre o HTML [aqui](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
-20. **`inner-page.html`**
+20. **`inner-page.html`** : Este é o arquivo principal do seu site. Ele contém todo o código HTML do seu site. Você pode ler mais sobre o HTML [aqui](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
-21. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+21. **`LICENSE`**: Este iniciante Gatsby é licenciado sob a licença 0BSD. Isso significa que você pode ver esse arquivo como um espaço reservado e substituí-lo por sua própria licença. Você pode ler mais sobre a licença 0BSD [aqui](https://opensource.org/licenses/0BSD).
 
-22. **`lint-staged.config.js`**
+22. **`lint-staged.config.js`** : Este é um arquivo de configuração para o lint-staged. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o lint-staged [aqui](
 
-23. **`netlify.toml`**
+23. **`netlify.toml`** : Este é um arquivo de configuração para o Netlify. Pode tambpem fazer o deploy do seu site no Netlify. Caso não tenha este arquivo no seu ambiente de produção, você não conseguirá fazer o deploy do seu site no Netlify. Você pode ler mais sobre o Netlify [aqui](https://www.netlify.com/).
 
-24. **`next-env.d.ts`**
+24. **`next-env.d.ts`** : Este é um arquivo de configuração para o Next.js. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o Next.js [aqui](https://nextjs.org/).
 
-25. **`next.config.js`**
+25. **`next.config.js`** : Este é um arquivo de configuração para o Next.js. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o Next.js [aqui](https://nextjs.org/).
 
-26. **`nodemon-debug.json`**
+26. **`nodemon-debug.json`** : Este é um arquivo de configuração para o Nodemon. Pode também debugar a alteração em tempo real de execução do seu código. Você pode ler mais sobre o Nodemon [aqui](https://nodemon.io/).
 
-27. **`nodemon.json`**
+27. **`nodemon.json`** : Este é um arquivo de configuração para o Nodemon. Pode também debugar a alteração em tempo real de execução do seu código. Você pode ler mais sobre o Nodemon [aqui](https://nodemon.io/).
 
-28. **`package-lock.json`**
+28. **`package-lock.json`** : Este é um arquivo de configuração para o NPM. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o NPM [aqui](https://www.npmjs.com/).
 
-29. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+29. **`package.json`**: Um arquivo de manifesto para projetos Node.js, que inclui coisas como metadados (o nome do projeto, autor etc.). Este manifesto é como o npm sabe quais pacotes instalar para seu projeto.
 
 30. **`portfolio-details.html`**
 
-31. **`README.md`**: A text file containing useful reference information about your project.
+31. **`README.md`**: Um arquivo de texto contendo informações úteis de referência sobre seu projeto. Esse arquivo é exibido por padrão quando alguém visita a página do GitHub do seu projeto. Você pode ler mais sobre o README [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes). Geralmente é usado para a documentação do projeto. Caso você faça o deploy do seu site no Netlify, você pode ignorar o arquivo README.md. Se o dev que está lendo este arquivo não sabe o que é o README.md, ele pode ler mais sobre o README [aqui](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 
-32. **`Readme.txt`**
+32. **`Readme.txt`** : Um arquivo de texto contendo informações de referência úteis sobre seu projeto. Este arquivo é exibido por padrão quando alguém visita a página do GitHub do projeto. Você pode ler mais sobre o README [aqui](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 
-33. **`security.txt`**
+33. **`security.txt`** : este arquivo contém informações de contato para a equipe de segurança de um site. Você pode ler mais sobre o security.txt [aqui](https://securitytxt.org/).
 
-34. **`tsconfig.json`**
+34. **`tsconfig.json`** : este é um arquivo de configuração para o TypeScript. Quando Dev inicia um novo projeto, esse arquivo é criado automaticamente. Você pode ler mais sobre o TypeScript [aqui](https://www.typescriptlang.org/).
 
-35. **`tscconfig.spec.json`**
+35. **`tscconfig.spec.json`** : este é um arquivo de configuração de teste para o TypeScript. Quando Dev inicia um novo projeto, esse arquivo é criado automaticamente. Você pode ler mais sobre o TypeScript [aqui](https://www.typescriptlang.org/).
 
-36. **`tslint.json`**
+36. **`tslint.json`** : este é um arquivo de configuração para o TSLint. Quando ocorre um erro de sintaxe, o TSLint é usado para verificar o código. Tem uma lista de regras que podem ser usadas para verificar o código. É possível configurar o TSLint para usar as regras que você deseja. Esse arquivo pode ser encontrado na loja de extensões do VS Code. Você pode ler mais sobre o TSLint [aqui](https://palantir.github.io/tslint/).
 
-37. **`vite.config.ts`**
+37. **`vite.config.ts`** : este é um arquivo de configuração para o Vite. Se o Dev iniciar um novo projeto, o comando na qual ele deverá utilizar no terminal é o `npm init vite@latest`. Ao rodar o comando no terminal `npm run dev`, o Vite é usado para iniciar o servidor de desenvolvimento. Você pode ler mais sobre o Vite [aqui](https://vitejs.dev/).
 
 38  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
