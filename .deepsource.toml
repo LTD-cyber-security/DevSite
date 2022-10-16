@@ -1,0 +1,29 @@
+version = 1
+
+[[analyzers]]
+name = "shell"
+enabled = true
+
+[[analyzers]]
+name = "ansible"
+enabled = true
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = [
+    "vue",
+    "react",
+    "angular",
+    "angularjs"
+  ]
+
+[[transformers]]
+name = "standardjs"
+enabled = true
+
+[[transformers]]
+name = "prettier"
+enabled = true
