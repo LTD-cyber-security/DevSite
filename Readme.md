@@ -296,7 +296,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
     └── vite.config.ts
 
 ```
-1
+
 1. **`assets`**: A pasta assets contém todos os arquivos de mídia, como imagens, ícones, vídeos, etc.
 
 2. **`forms`**: A pasta forms contém todos os arquivos de formulário, como formulários de contato, formulários de inscrição, etc. Esses arquivos são usados ​​para enviar dados para o servidor.
