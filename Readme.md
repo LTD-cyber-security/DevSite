@@ -407,8 +407,16 @@ Aqui é gerado [README example](https://github.com/ibbatta/readme-generator/blob
 Antes de clonar o repositório **certifique-se** de que você instalou:
 
 - [**NODE**](https://www.google.com/search?q=how+to+install+node) (version >= 8.9.x)
+- [**GATSBY**](https://www.google.com/search?q=how+to+install+gatsby) (version >= 2.24.x)
+- [**HEROKU**](https://www.google.com/search?q=how+to+install+heroku) (version >= 7.47.x)
+- [**NETLIFY**](https://www.google.com/search?q=how+to+install+netlify) (version >= 2.69.x)
 - [**YARN**](https://www.google.com/search?q=how+to+install+yarn) (version >= 1.9.x)
+- [**PNPM**](https://www.google.com/search?q=how+to+install+pnpm) (version >= 3.0.x)
 - [**NPM**](https://www.google.com/search?q=how+to+install+npm) (version >= 6.3.x)
+- [**GIT**](https://www.google.com/search?q=how+to+install+git) (version >= 2.14.x)
+- [**GITHUB CLI**](https://www.google.com/search?q=how+to+install+github+cli) (version >= 1.0.x)
+- [**GITHUB ACCOUNT**](https://www.google.com/search?q=how+to+create+github+account)
+
 
 Then:
 
