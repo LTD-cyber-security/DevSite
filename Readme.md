@@ -246,7 +246,6 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 ``` js
 
     .
-    ├── assets
     ├── __helpers__
         ├── loadershim.ts
         └── setup.ts
@@ -264,7 +263,20 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
         ├── commit-msg
         ├── common.sh
         └── pre-commit
-    ├── .husky
+    ├── .netlify
+        ├── functions
+            ├── .gitkeep
+            └── hello.js
+        ├── headers.json
+        ├── redirects.json
+        └── site.json
+    ├── .vscode
+        ├── extensions.json
+        └── settings.json
+    ├── assets
+    ├── docs
+        ├── .gitkeep
+        └── README.md
     ├── forms
     ├── node_modules
     ├── public
@@ -276,6 +288,9 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
             └── server.ts
         ├── index.css
         └── my-element.ts
+    ├── styles
+        ├── global.css
+        └── tailwind.css
     ├── .editorconfig
     ├── .eslintignore
     ├── .eslintrc
