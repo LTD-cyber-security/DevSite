@@ -71,11 +71,19 @@ Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github
 
 Nos ultimos tempos, a pandemia do COVID-19 tem afetado a vida de muitas pessoas, e com isso, a vida dos idosos tem sido afetada de forma mais drástica. Com isso, a organização LTD-cyber-security, tem como objetivo ajudar os idosos a se defenderem de ataques cyberneticos, e com isso, evitar que eles sejam vítimas de golpes e fraudes.
 
-Com o avanço da tecnologia, os idosos de todas as idades, estão menos preparados para lidar com vários tipos de ataques, dentre eles, estão os ataques de phishing, que são ataques que tentam enganar as pessoas para que elas forneçam informações pessoais, como senhas, dados bancários, etc. Com isso, a organização tem como objetivo ajudar os idosos a se defenderem desses ataques, e com isso, evitar que eles sejam vítimas de golpes e fraudes. Mas como fazer isso? Através de um site, que contém diversos artigos sobre como se defender contra ataques cyberneticos para os idosos 🛍️ 🚀
+Com o avanço da tecnologia, os idosos de todas as idades, estão menos preparados para lidar com vários tipos de ataques, dentre eles, estão os ataques de phishing, que são ataques que tentam enganar as pessoas para que elas forneçam informações pessoais, como senhas, dados bancários, etc.
 
 Se as grandes empresas estão sofrendo com ataques, imagine os idosos que não tem conhecimento sobre o assunto. Por isso, cabe nós, jovens, ajudar os idosos a se defenderem desses ataques. E com isso, o DevSite foi criado com o intuito de ajudar os idosos a se defenderem desses ataques.
 
+Caso um isodo clica em um link malicioso, ele pode ser redirecionado para um site falso, que pode roubar suas informações pessoais, como senhas, dados bancários, etc. Com isso, a organização tem como objetivo ajudar os idosos a se defenderem desses ataques, e com isso, evitar que eles sejam vítimas de golpes e fraudes. Mas como fazer isso? Através de um site, que contém diversos artigos sobre como se defender contra ataques cyberneticos para os idosos 🛍️ 🚀
+
+As fraudes online estão cada vez mais comuns, seja ela por meio de e-mails, mensagens de texto, ou até mesmo por meio de sites falsos.
+
 Futuramente, essa organização pretende fazer uma versão mobile do DevSite, para que os idosos possam ter acesso a esses conteúdos de forma mais fácil e mais divertido. E com isso, ajudar a sociedade a se defender de ataques cyberneticos.
+
+Para mais informações, acesse ao site da política de privacidade do DevSite:
+
+<a href = "https://ltd-cyber-security.github.io/DevSite/privacy-policy.html">https://ltd-cyber-security.github.io/DevSite/privacy-policy.html</a>
 
 ***
 
