@@ -445,6 +445,7 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
 ### O package.json
 
 ```json
+
 {
   "type": "module",
   "name": "dev-site",
@@ -467,24 +468,40 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "lint": "prettier --check .",
+    "tslint": "tslint -c tslint.json -p .",
+    "postmerge": "$_SCRIPT"
+  },
+  "lint-staged": {
+    "*": "prettier --write"
   },
   "dependencies": {
+    "husky": "8.0.1",
     "lit": "^2.3.1"
   },
-  "devDependencies": {
-    "vite": "^3.1.0",
-    "gh-pages": "^3.1.0",
-    "prettier": "2.0.5"
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier --write . && git add -A ." ,
+      "pre-push": "npm run lint",
+      "post-merge": "$_SCRIPT",
+      "post-checkout": "$_SCRIPT",
+      "post-rewrite": "$_SCRIPT",
+      "post-commit": "$_SCRIPT"
+    }
   },
-
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "prettier": "2.0.5",
+    "vite": "^3.1.0",
+    "husky": "^1.0.0"
+  },
   "keywords": [
     "github",
     "profile",
     "readme"
   ],
   "license": "0BSD",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/LTD-cyber-security/DevSite"
@@ -492,7 +509,6 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
   "bugs": {
     "url": "https://github.com/LTD-cyber-security/DevSite/issues"
   }
-
 }
 
 ```
