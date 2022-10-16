@@ -193,6 +193,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
     ├── .eslintrc
     ├── .gittattributes
     ├── .gitignore
+    ├── .npmrc
     ├── .nvimrc
     ├── .prettierignore
     ├── .prettierrc
@@ -201,8 +202,11 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
     ├── CHANGELOG.md
     ├── changelog.txt
     ├── CODE_OF_CONDUCT.md
+    ├── gatsby-config.js
+    ├── gatsby-node.js
     ├── index.html
     ├── inner-page.html
+    ├── jest.config.js
     ├── LICENSE
     ├── lint-staged.config.js
     ├── netlify.toml
