@@ -60,6 +60,8 @@
     </a>
 </p>
 
+<img src="./src/assets/images/gamitopia_logo_circle.png" width="250" height="250"/>
+
 <p align="center">
     <a href="https://" target="blank">View Demo</a>
     ·
@@ -1125,6 +1127,8 @@ A seguir estão os serviços de implantação online recomendados que são testa
 [![Deploy with AWS Amplify](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/LTD-cyber-security/DevSite)
 
 [![Deploy with DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/LTD-cyber-security/DevSite/tree/main)
+
+[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/DevSite)
 
 [![Deploy with Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
