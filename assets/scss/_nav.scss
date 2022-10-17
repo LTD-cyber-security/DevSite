@@ -19,14 +19,15 @@
   li {
     position: relative;
   }
-  
-  a, a:focus {
+
+  a,
+  a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: $font-secondary;
-    font-size: 14px; 
+    font-size: 14px;
     font-weight: 500;
     color: #fff;
     white-space: nowrap;
@@ -40,12 +41,14 @@
     }
   }
 
-  a:hover, .active, .active:focus, li:hover > a  {
+  a:hover,
+  .active,
+  .active:focus,
+  li:hover > a {
     color: $primary;
   }
 
   .dropdown {
-
     ul {
       display: block;
       position: absolute;
@@ -59,7 +62,7 @@
       background: #fff;
       box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
       transition: 0.3s;
-      
+
       li {
         min-width: 200px;
       }
@@ -75,10 +78,11 @@
         }
       }
 
-      a:hover, .active:hover, li:hover > a {
+      a:hover,
+      .active:hover,
+      li:hover > a {
         color: $primary;
       }
-
     }
 
     &:hover > ul {
@@ -86,11 +90,9 @@
       top: 100%;
       visibility: visible;
     }
-
   }
 
   .dropdown .dropdown {
-    
     ul {
       top: 0;
       left: calc(100% - 30px);
@@ -114,7 +116,6 @@
       }
     }
   }
-
 }
 
 /**
@@ -130,7 +131,6 @@
 }
 
 @media (max-width: 991px) {
-
   .mobile-nav-toggle {
     display: block;
   }
@@ -138,7 +138,6 @@
   .navbar ul {
     display: none;
   }
-
 }
 
 .navbar-mobile {
@@ -171,22 +170,25 @@
     transition: 0.3s;
   }
 
-  a, a:focus {
+  a,
+  a:focus {
     padding: 10px 20px;
-    font-size: 15px; 
+    font-size: 15px;
     color: $secondary;
   }
 
-  a:hover, .active, li:hover > a  {
+  a:hover,
+  .active,
+  li:hover > a {
     color: $primary;
   }
 
-  .getstarted, .getstarted:focus {
+  .getstarted,
+  .getstarted:focus {
     margin: 15px;
   }
 
   .dropdown {
-
     ul {
       position: static;
       display: none;
@@ -197,29 +199,28 @@
       visibility: visible;
       background: #fff;
       box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-      
+
       li {
         min-width: 200px;
       }
 
       a {
         padding: 10px 20px;
-        
+
         i {
           font-size: 12px;
         }
       }
 
-      a:hover, .active:hover, li:hover > a {
+      a:hover,
+      .active:hover,
+      li:hover > a {
         color: $primary;
       }
-
     }
 
     > .dropdown-active {
       display: block;
     }
-
   }
-
 }

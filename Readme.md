@@ -91,6 +91,7 @@
 ## 🚀 Começando
 
 #### Para começar, você precisará ter o [Node.js](https://nodejs.org/en/) instalado em sua máquina. Depois disso, você pode clonar o repositório e instalar as dependências
+
 Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github com os complementos mais recentes, como `visitors count`, `github stats` etc.
 
 #### 🚀 Try it out: [Live demo](https://)
@@ -117,7 +118,7 @@ Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github
   <a href = "#Online-Deployment">💎 Online Deployment</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
- ***
+---
 
 <h2 id = "sobre-este-projeto">👨🏻‍💻 Sobre este projeto </h2>
 
@@ -139,11 +140,11 @@ Para mais informações, acesse ao site da política de privacidade do DevSite:
 
 <a href = "https://ltd-cyber-security.github.io/DevSite/privacy-policy.html">https://ltd-cyber-security.github.io/DevSite/privacy-policy.html</a>
 
-***
+---
 
 <h2 id = "screenshots">🔍 Screenshots </h2>
 
-***
+---
 
 <h2 id = "features">🧐 Features </h2>
 
@@ -182,61 +183,60 @@ Para mais informações, acesse ao site da política de privacidade do DevSite:
 
 Basta preencher os dados como `Name`, `Tagline`, `Dev Platforms Username`, `Current Work`, `Portfolio`, `Blog` etc. com uma interface de usuário mínima.
 
-***
+---
 
 <h2 id = "features-list">⭐️ Feature list </h2>
 
--   [x] Os campos de imagem e texto têm várias opções, como alinhamento, tamanhos, ajuste à tela
--   [x] Você pode adicionar várias imagens e texto
--   [x] Documentação detalhada
--   [x] Suporte ao tema escuro
--   [x] Suporte ao tema claro
--   [x] Suporte ao tema de cores
--   [x] Campo de conjunto de habilidades
--   [x] Campo de conjunto de projetos
--   [x] JavaScript puro
--   [x] Suporte ao GitHub
--   [x] Suporte ao GitLab
--   [x] Suporte ao Bitbucket
--   [x] Suporte ao Gitpod
--   [x] Suporte ao Repl.it
--   [x] Suporte ao Glitch
--   [x] Suporte ao CodeSandbox
--   [x] Suporte ao StackBlitz
--   [x] Suporte ao CodePen
--   [x] Atividade do GitHub e estatísticas de idioma
--   [x] Postagens de blog dinâmicas
--   [x] Iniciar com modelo de demonstração
--   [x] Suporte a várias colunas
--   [x] Blocos e layouts personalizáveis
--   [x] Ouvindo do Spotify
--   [x] Vários modelos
--   [x] Vários idiomas
--   [ ] Ainda não há suporte ao npm
--   [ ] Ainda não há suporte aos projetos do CodeChef
--   [ ] Ainda não há suporte aos frameworks de front-end
+- [x] Os campos de imagem e texto têm várias opções, como alinhamento, tamanhos, ajuste à tela
+- [x] Você pode adicionar várias imagens e texto
+- [x] Documentação detalhada
+- [x] Suporte ao tema escuro
+- [x] Suporte ao tema claro
+- [x] Suporte ao tema de cores
+- [x] Campo de conjunto de habilidades
+- [x] Campo de conjunto de projetos
+- [x] JavaScript puro
+- [x] Suporte ao GitHub
+- [x] Suporte ao GitLab
+- [x] Suporte ao Bitbucket
+- [x] Suporte ao Gitpod
+- [x] Suporte ao Repl.it
+- [x] Suporte ao Glitch
+- [x] Suporte ao CodeSandbox
+- [x] Suporte ao StackBlitz
+- [x] Suporte ao CodePen
+- [x] Atividade do GitHub e estatísticas de idioma
+- [x] Postagens de blog dinâmicas
+- [x] Iniciar com modelo de demonstração
+- [x] Suporte a várias colunas
+- [x] Blocos e layouts personalizáveis
+- [x] Ouvindo do Spotify
+- [x] Vários modelos
+- [x] Vários idiomas
+- [ ] Ainda não há suporte ao npm
+- [ ] Ainda não há suporte aos projetos do CodeChef
+- [ ] Ainda não há suporte aos frameworks de front-end
 
-***
+---
 
 <h2 id = "tecnologias-utilizadas">🚀 Tecnologias utilizadas</h2>
 Tecnologias utilizadas para o desenvolvimento do projeto:
 
-* [JQuery](https://jquery.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Node.js](https://nodejs.org/en/)
-* [Express](https://expressjs.com/pt-br/)
-* [Nodemon](https://nodemon.io/)
-* [EJS](https://ejs.co/)
-* [html5](https://www.w3schools.com/html/html5_intro.asp)
-* [CSS3](https://www.w3schools.com/css/)
-* [JavaScript](https://www.javascript.com/)
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Google Fonts](https://fonts.google.com/)
+- [JQuery](https://jquery.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [Nodemon](https://nodemon.io/)
+- [EJS](https://ejs.co/)
+- [html5](https://www.w3schools.com/html/html5_intro.asp)
+- [CSS3](https://www.w3schools.com/css/)
+- [JavaScript](https://www.javascript.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Google Fonts](https://fonts.google.com/)
 
-***
-
+---
 
 <h2 id = "Application-Structure">🛠️ Application Structure</h2>
 
@@ -244,7 +244,7 @@ A estrutura do website apresentada neste clichê é agrupada principalmente por 
 
 Uma rápida olhada nos arquivos e diretórios de nível superior que você verá em um projeto tipo ao Gatsby. Gatsby nada mais é do que um framework React que facilita a criação de sites estáticos. Ele usa o conceito de componentes para criar páginas e componentes. Ele também usa o conceito de rotas para criar páginas. O Gatsby usa o conceito de plugins para adicionar funcionalidades ao site. Ele também usa o conceito de temas para criar sites com um design específico. O Gatsby usa o conceito de GraphQL para obter dados de qualquer fonte. Ele também usa o conceito de Markdown para criar páginas de blog.
 
-``` js
+```js
 
     .
     ├── __helpers__
@@ -391,7 +391,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
                 └── scss
                     ├── bootstrap-icons.scss
                     └── _variables.scss
-            
+
             ├── boxicons
                 ├── css
                     ├── boxicons.css
@@ -607,11 +607,11 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 2. **`forms`**: A pasta forms contém todos os arquivos de formulário, como formulários de contato, formulários de inscrição, etc. Esses arquivos são usados ​​para enviar dados para o servidor.
 
-3.  **`/node_modules`**: Esta pasta contém todos os módulos de código do npm que o projeto depende. (geralmente, não é necessário ver o código dentro desta pasta). Vem quando você executa `npm install`. Você pode excluir esta pasta e executar `npm install` novamente para recriá-la. Você também pode executar `npm install <module_name>` para instalar apenas um módulo. Você pode ler mais sobre o npm [aqui](https://docs.npmjs.com/).
+3. **`/node_modules`**: Esta pasta contém todos os módulos de código do npm que o projeto depende. (geralmente, não é necessário ver o código dentro desta pasta). Vem quando você executa `npm install`. Você pode excluir esta pasta e executar `npm install` novamente para recriá-la. Você também pode executar `npm install <module_name>` para instalar apenas um módulo. Você pode ler mais sobre o npm [aqui](https://docs.npmjs.com/).
 
 4. **`public`**: A pasta assets contém todos os arquivos de mídia, como imagens, ícones, vídeos, etc. São usados para criar páginas estáticas. Está sendo usado pelo Gatsby. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
 
-5.  **`/src`**: Esta pasta contém todo o código relacionado ao que você vê no front-end do site (o que você vê no navegador) - código HTML, CSS, JavaScript, TypeScript, etc. Este é o único diretório que você precisa para criar um site Gatsby. Vem quando você executa `gatsby new <project_name>`. Você pode excluir esta pasta e executar `gatsby new <project_name>` novamente para recriá-la. Você também pode executar `gatsby new <project_name> <starter_url>` para instalar um modelo de site. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
+5. **`/src`**: Esta pasta contém todo o código relacionado ao que você vê no front-end do site (o que você vê no navegador) - código HTML, CSS, JavaScript, TypeScript, etc. Este é o único diretório que você precisa para criar um site Gatsby. Vem quando você executa `gatsby new <project_name>`. Você pode excluir esta pasta e executar `gatsby new <project_name>` novamente para recriá-la. Você também pode executar `gatsby new <project_name> <starter_url>` para instalar um modelo de site. Você pode ler mais sobre o Gatsby [aqui](https://www.gatsbyjs.com/).
 
 6. **`.editorconfig`** : Este é um arquivo de configuração para o EditorConfig. Ele ajuda a manter o estilo de codificação consistente entre diferentes editores e IDEs. Você pode ler mais sobre o EditorConfig [aqui](https://editorconfig.org/). Você pode ler mais sobre o EditorConfig [aqui](https://editorconfig.org/).
 
@@ -621,7 +621,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 9. **`.gittattributes`** : Este arquivo contém configurações para o Git. Você pode ler mais sobre o Git [aqui](https://git-scm.com/).
 
-10.  **`.gitignore`** : Este arquivo contém uma série de nomes de arquivos e pastas que o Git deve ignorar. Caso você faça alterações em um arquivo que está listado no arquivo .gitignore, o Git não irá rastrear essas alterações. Você pode ler mais sobre o Git [aqui](https://git-scm.com/). Caso faça o deploy do seu site no Netlify, você pode ignorar o arquivo .gitignore.
+10. **`.gitignore`** : Este arquivo contém uma série de nomes de arquivos e pastas que o Git deve ignorar. Caso você faça alterações em um arquivo que está listado no arquivo .gitignore, o Git não irá rastrear essas alterações. Você pode ler mais sobre o Git [aqui](https://git-scm.com/). Caso faça o deploy do seu site no Netlify, você pode ignorar o arquivo .gitignore.
 
 11. **`.nvimrc`** : Este é um arquivo de configuração para o Neovim. Você pode ler mais sobre o Neovim [aqui](https://neovim.io/).
 
@@ -677,7 +677,7 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 37. **`vite.config.ts`** : este é um arquivo de configuração para o Vite. Se o Dev iniciar um novo projeto, o comando na qual ele deverá utilizar no terminal é o `npm init vite@latest`. Ao rodar o comando no terminal `npm run dev`, o Vite é usado para iniciar o servidor de desenvolvimento. Você pode ler mais sobre o Vite [aqui](https://vitejs.dev/).
 
-38.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+38. **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
 <!-- 5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
@@ -687,20 +687,20 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering. -->
 
-***
+---
 
 <h2 id = "User-usage">📋 User usage</h2>
 
 Você pode adicionar as seguintes opções:
 
-| Option         | Description                                                       | Default                    |
-| -------------- | ----------------------------------------------------------------- | -------------------------- |
-| -V, --version  | emita o número da versão                                          |                            |
-| -h, --help     | informações de uso de saída                                       |                            |
-| -E, --entry    | especifique o arquivo de entrada                                  | `package.json`             |
-| -O, --output   | especifique o arquivo de saída                                    | `README.md`                |
-| -T, --template | especifique o caminho para seu próprio modelo README              | `internal default template`|
-| -D, --debug    | dados leia-me de saída de log                                     | `false`                    |
+| Option         | Description                                          | Default                     |
+| -------------- | ---------------------------------------------------- | --------------------------- |
+| -V, --version  | emita o número da versão                             |                             |
+| -h, --help     | informações de uso de saída                          |                             |
+| -E, --entry    | especifique o arquivo de entrada                     | `package.json`              |
+| -O, --output   | especifique o arquivo de saída                       | `README.md`                 |
+| -T, --template | especifique o caminho para seu próprio modelo README | `internal default template` |
+| -D, --debug    | dados leia-me de saída de log                        | `false`                     |
 
 As ferramentas procurarão **nome**, **versão**, **descrição**, **repositório**, **autor**, **mecanismos**, **dependências** e ** contribuidores** dados dentro de seu package.json e, em seguida, gerará o arquivo README.md com base nessas informações.
 
@@ -762,7 +762,7 @@ Isso permite que a ferramenta crie um `README.md` melhor com mais informações.
 
 Aqui é gerado [README example](https://github.com/ibbatta/readme-generator/blob/master/EXAMPLE-README.md).
 
-***
+---
 
 <h2 id = "Developer-usage">🔧 Developer usage</h2>
 
@@ -785,13 +785,12 @@ Antes de clonar o repositório **certifique-se** de que você instalou:
 - [**GITHUB CLI**](https://www.google.com/search?q=how+to+install+github+cli) (version >= 1.0.x)
 - [**GITHUB ACCOUNT**](https://www.google.com/search?q=how+to+create+github+account)
 
-
 Then:
 
 - Escolha um projeto de pasta em seu sistema e alterne `cd [folder path]`
 - Clone o repositório em sua pasta: `git clone https://github.com/LTD-cyber-security/DevSite.git`
 
-***
+---
 
 <h2 id = "Directory-Structure">Directory Structure </h2>
 
@@ -808,7 +807,7 @@ Then:
 - `pnpm lint` — Runs ESLint for all files in the `src` directory.
 - `pnpm format` — Runs Prettier for all files in the `src` directory.
 
-***
+---
 
 <h2 id = "Installation">🚀 Installation</h2>
 
@@ -821,7 +820,6 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
 ### package.json
 
 ```json
-
 {
   "type": "module",
   "name": "dev-site",
@@ -833,9 +831,7 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
   "exports": {
     ".": "./dist/my-element.es.js"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -858,7 +854,7 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write . && git add -A ." ,
+      "pre-commit": "prettier --write . && git add -A .",
       "pre-push": "npm run lint",
       "post-merge": "$_SCRIPT",
       "post-checkout": "$_SCRIPT",
@@ -872,11 +868,7 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
     "vite": "^3.1.0",
     "husky": "^1.0.0"
   },
-  "keywords": [
-    "github",
-    "profile",
-    "readme"
-  ],
+  "keywords": ["github", "profile", "readme"],
   "license": "0BSD",
   "repository": {
     "type": "git",
@@ -886,7 +878,6 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
     "url": "https://github.com/LTD-cyber-security/DevSite/issues"
   }
 }
-
 ```
 
 #### Start the project
@@ -955,10 +946,9 @@ npm run type-check
 yarn type-check
 ```
 
-
 Você pode adicionar o sinalizador `--watch` se quiser continuar observando as alterações feitas nos arquivos de teste.
 
-***
+---
 
 <h2 id = "Editor-setup">🌟 Editor setup</h2>
 
@@ -990,14 +980,13 @@ eu optei por usar [Prettier](https://prettier.io/) para garantir que a base de c
 
 Inclui um `.prettierrc` arquivo no diretório raiz. Certifique-se de que seu editor tenha o plugin certo.
 
-***
+---
 
 <h2 id = "Contributing">🤝 Contributing</h2>
 
 <h1 align="righ">
     <img src="https://github.blog/wp-content/uploads/2019/05/mona-heart-featured.png?resize=1600%2C850" alt="DevSite" width="400">
 </h1>
-
 
 👍🎉 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
@@ -1010,7 +999,7 @@ Sinta-se à vontade para verificar a página de problemas se quiser contribuir e
 - Push to the branch: `git push origin my-new-feature`
 - Submit a pull request!
 
-***
+---
 
 <h2 id = "Troubleshooting">💢 Troubleshooting</h2>
 
@@ -1018,27 +1007,27 @@ Este é apenas um projeto pessoal criado para fins de estudo/demonstração e pa
 
 <h2 id = "leitura">📚 Leitura e links recomendados</h2>
 
-* [🎯 Deploying a HTML5 game to GitHub Pages](https://medium.com/@jamesjara/deploying-a-html5-game-to-github-pages-2eb9a5d212a2)
-* [🎯 GitHub Pages](https://pages.github.com/)
-* [🎯 HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-* [🎯 CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* [🎯 JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-* [🎯 HTML5 e CSS3](https://www.youtube.com/watch?v=ghTrp1x_1As&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp)
-* [🎯 JavaScript ES6](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=2)
-* [🎯 Node.js](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=3)
-* [🎯 ReactJS](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=4)
-* [🎯 React Native](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=5)
-* [🎯 TypeScript](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=6)
-* [🎯 Next.js](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=8)
-* [🎯 Styled Components](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=9)
-* [🎯 Prisma](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=10)
-* [🎯 GraphQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=11)
-* [🎯 Docker](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=12)
-* [🎯 MongoDB](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=13)
-* [🎯 PostgreSQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=14)
-* [🎯 MySQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=15)
+- [🎯 Deploying a HTML5 game to GitHub Pages](https://medium.com/@jamesjara/deploying-a-html5-game-to-github-pages-2eb9a5d212a2)
+- [🎯 GitHub Pages](https://pages.github.com/)
+- [🎯 HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [🎯 CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [🎯 JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [🎯 HTML5 e CSS3](https://www.youtube.com/watch?v=ghTrp1x_1As&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp)
+- [🎯 JavaScript ES6](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=2)
+- [🎯 Node.js](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=3)
+- [🎯 ReactJS](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=4)
+- [🎯 React Native](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=5)
+- [🎯 TypeScript](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=6)
+- [🎯 Next.js](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=8)
+- [🎯 Styled Components](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=9)
+- [🎯 Prisma](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=10)
+- [🎯 GraphQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=11)
+- [🎯 Docker](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=12)
+- [🎯 MongoDB](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=13)
+- [🎯 PostgreSQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=14)
+- [🎯 MySQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=15)
 
-***
+---
 
 <h2 id = "Contact-Information">🧾Contact Information</h2>
 
@@ -1050,26 +1039,24 @@ Email Address: noreply@comunica.estacio.br
 
 [Github Live Page](https://kfields91.github.io/DevSite/)
 
-***
+---
 
 <h2 id = "licenca">🧾Licença</h2>
 
 Este projeto está sob a licença [Apache 2.0](https://github.com/JosManoel/Dart-Study_Studio/blob/main/LICENSE).
 
-***
+---
 
 <h2 id = "Built-on-the-shoulders-of-giants">💫 Construído nos ombros de gigantes</h2>
 
-
--   [amazing github-readme-stats](https://github.com/anuraghazra/github-readme-stats) por Anurag Hazra para criar estatísticas detalhadas.
--   [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter) por Anton Komarev para simplificar o contador de visitantes.
--   [blog post workflow](https://github.com/gautamkrishnar/blog-post-workflow) por Gautam Krishna R, que é um uso genial do Github Actions.
--   [spotify-github-profile](https://github.com/kittinan/spotify-github-profile) por Kittinan que gerou a imagem da capa do álbum atualmente em escuta do Spotify.
+- [amazing github-readme-stats](https://github.com/anuraghazra/github-readme-stats) por Anurag Hazra para criar estatísticas detalhadas.
+- [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter) por Anton Komarev para simplificar o contador de visitantes.
+- [blog post workflow](https://github.com/gautamkrishnar/blog-post-workflow) por Gautam Krishna R, que é um uso genial do Github Actions.
+- [spotify-github-profile](https://github.com/kittinan/spotify-github-profile) por Kittinan que gerou a imagem da capa do álbum atualmente em escuta do Spotify.
 
 NOTA: Todos os logotipos/ícones pertencem aos seus respectivos proprietários, nós não os possuímos.
 
 <h2 id = "Supporting-the-project">❤️ Supporting the project</h2>
-
 
 Uma simples estrela neste repositório de projeto é suficiente para me manter motivado neste projeto por dias. Se você se achar muito empolgado com este projeto, me avise com um tweet.
 
@@ -1080,7 +1067,7 @@ Contribuições são bem-vindas!
 <!-- adicionando um gif da pasta local -->
 <img src=" public/video/nft-gif.gif" width="400px">
 
-***
+---
 
 <h2 id = "Online-Deployment">💎 Online Deployment</h2>
 
@@ -1095,7 +1082,7 @@ A seguir estão os serviços de implantação online recomendados que são testa
 [![Deploy with Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/LTD-cyber-security/DevSite)
-    
+
 <!-- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/NBfBbp?referralCode=km83_N) -->
 
 [![Deploy with Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FLTD-cyber-security%2FDevSite%2Fmain%2Fazuredeploy.json)

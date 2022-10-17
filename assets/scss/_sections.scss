@@ -32,7 +32,6 @@ section {
 --------------------------------------------------------------*/
 .about {
   .content {
-
     h2 {
       font-weight: 700;
       font-size: 48px;
@@ -46,11 +45,10 @@ section {
       font-weight: 500;
       line-height: 32px;
       font-size: 24px;
-      color:darken($primary, 20);
+      color: darken($primary, 20);
     }
-  
-    ul {
 
+    ul {
       list-style: none;
       padding: 0;
 
@@ -70,7 +68,6 @@ section {
     p:last-child {
       margin-bottom: 0;
     }
-
   }
 }
 
@@ -78,7 +75,6 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-
   padding-bottom: 40px;
 
   .icon-box {
@@ -95,13 +91,12 @@ section {
     border-radius: 50%;
     transition: 0.5s;
     border: 2px solid $primary;
-    
+
     i {
       color: darken($primary, 10);
       font-size: 24px;
       line-height: 0;
     }
-
   }
 
   .title {
@@ -113,7 +108,6 @@ section {
       color: $secondary;
       transition: 0.3s;
     }
-
   }
 
   .description {
@@ -140,7 +134,6 @@ section {
 # Featured
 --------------------------------------------------------------*/
 .featured {
-
   img {
     border-radius: 0;
   }
@@ -162,7 +155,6 @@ section {
     }
   }
 
-
   .btn {
     border-radius: 4px;
     padding: 4px 30px 6px 30px;
@@ -174,7 +166,6 @@ section {
       color: $white;
     }
   }
-
 }
 
 /*--------------------------------------------------------------
@@ -182,13 +173,13 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url('../img/testimonials-bg.jpg') no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -201,7 +192,8 @@ section {
     margin-bottom: 40px;
   }
 
-  .testimonials-carousel, .testimonials-slider {
+  .testimonials-carousel,
+  .testimonials-slider {
     overflow: hidden;
   }
 
@@ -212,7 +204,7 @@ section {
     .testimonial-img {
       width: 100px;
       border-radius: 50%;
-      border: 6px solid rgba($white, .15);
+      border: 6px solid rgba($white, 0.15);
       margin: 0 auto;
     }
 
@@ -229,8 +221,9 @@ section {
       margin: 0 0 15px 0;
     }
 
-    .quote-icon-left, .quote-icon-right {
-      color: rgba($white, .4);
+    .quote-icon-left,
+    .quote-icon-right {
+      color: rgba($white, 0.4);
       font-size: 26px;
     }
 
@@ -244,7 +237,7 @@ section {
       display: inline-block;
       right: -5px;
       position: relative;
-      top:10px;
+      top: 10px;
     }
 
     p {
@@ -252,43 +245,40 @@ section {
       margin: 0 auto 15px auto;
       color: #eee;
     }
-
   }
 
-   .swiper-pagination {
-     margin-top: 20px;
-     position: relative;
-   
-     .swiper-pagination-bullet {
-       width: 12px;
-       height: 12px;
-       background-color: rgba(#fff, .5);
-       opacity: 1;
-     }
-   
-     .swiper-pagination-bullet-active {
-       background-color: $primary;
-     }
-   }
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: rgba(#fff, 0.5);
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: $primary;
+    }
+  }
 
   @media (min-width: 992px) {
     .testimonial-item p {
       width: 80%;
-    } 
+    }
   }
-
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-
   #portfolio-flters {
-    padding:0;
-    margin:0 auto 25px auto;
-    list-style:none;
-    text-align:center;
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
     background: lighten($primary, 46);
     border-radius: 50px;
     padding: 2px 15px;
@@ -305,7 +295,8 @@ section {
       margin-bottom: 10px;
       transition: all 0.3s ease-in-out;
 
-      &:hover, &.filter-active {
+      &:hover,
+      &.filter-active {
         color: $primary;
       }
 
@@ -326,7 +317,7 @@ section {
       bottom: 0;
       z-index: 3;
       transition: all ease-in-out 0.3s;
-      background: rgba($white, .9);
+      background: rgba($white, 0.9);
       padding: 15px;
 
       h4 {
@@ -342,7 +333,8 @@ section {
         margin-bottom: 0;
       }
 
-      .preview-link, .details-link {
+      .preview-link,
+      .details-link {
         position: absolute;
         right: 40px;
         font-size: 24px;
@@ -356,7 +348,6 @@ section {
       .details-link {
         right: 10px;
       }
-      
     }
 
     .portfolio-links {
@@ -379,7 +370,6 @@ section {
           color: lighten($primary, 20);
         }
       }
-
     }
 
     &:hover {
@@ -395,7 +385,6 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-
   padding-top: 40px;
 
   .portfolio-details-slider {
@@ -418,7 +407,6 @@ section {
         background-color: $primary;
       }
     }
-
   }
 
   .portfolio-info {
@@ -438,16 +426,15 @@ section {
       padding: 0;
       font-size: 15px;
 
-      li +li {
+      li + li {
         margin-top: 10px;
       }
     }
-    
   }
 
   .portfolio-description {
     padding-top: 30px;
-    
+
     h2 {
       font-size: 26px;
       font-weight: 700;
@@ -458,22 +445,20 @@ section {
       padding: 0;
     }
   }
-
 }
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
-
   .member {
     margin-bottom: 20px;
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
     background: $white;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
-    
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
     .member-img {
       position: relative;
       overflow: hidden;
@@ -502,7 +487,6 @@ section {
         &:hover {
           color: $primary;
         }
-
       }
 
       i {
@@ -519,7 +503,7 @@ section {
         font-size: 18px;
         color: $secondary;
       }
-  
+
       span {
         display: block;
         font-size: 13px;
@@ -533,16 +517,13 @@ section {
         line-height: 26px;
         color: lighten($default, 20);
       }
-
     }
 
     &:hover {
-
       .social {
         opacity: 1;
       }
     }
-
   }
 }
 
@@ -550,7 +531,6 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing {
-
   .box {
     padding: 20px;
     background: #f9f9f9;
@@ -567,27 +547,27 @@ section {
       font-weight: 600;
       color: $secondary;
     }
-  
+
     h4 {
       font-size: 42px;
       color: $primary;
       font-weight: 500;
       font-family: $font-default;
       margin-bottom: 20px;
-  
+
       sup {
         font-size: 20px;
         top: -15px;
         left: -3px;
       }
-  
+
       span {
         color: #bababa;
         font-size: 16px;
         font-weight: 300;
       }
     }
-  
+
     ul {
       padding: 0;
       list-style: none;
@@ -595,11 +575,11 @@ section {
       text-align: center;
       line-height: 20px;
       font-size: 14px;
-  
+
       li {
         padding-bottom: 16px;
       }
-  
+
       i {
         color: $primary;
         font-size: 18px;
@@ -610,12 +590,12 @@ section {
         text-decoration: line-through;
       }
     }
-  
+
     .btn-wrap {
       padding: 15px;
       text-align: center;
     }
-  
+
     .btn-buy {
       background: $primary;
       display: inline-block;
@@ -632,20 +612,18 @@ section {
         background: lighten($primary, 10);
       }
     }
-
   }
 
   .featured {
     background: lighten($primary, 32);
     box-shadow: none;
   }
-
 }
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq  {
+.faq {
   padding-top: 0;
   .faq-item {
     margin-bottom: 40px;
@@ -675,15 +653,13 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-
   .info-wrap {
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
     background: $white;
   }
-  
-  .info {
 
+  .info {
     i {
       font-size: 20px;
       color: $primary;
@@ -720,10 +696,10 @@ section {
       }
     }
   }
-  
+
   .php-email-form {
     width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0 , 0, .12);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     padding: 30px;
     background: #fff;
 
@@ -738,7 +714,7 @@ section {
       font-weight: 400;
       font-size: 13px;
     }
-    
+
     .error-message {
       display: none;
       color: #fff;
@@ -750,7 +726,7 @@ section {
         margin-top: 25px;
       }
     }
-    
+
     .sent-message {
       display: none;
       color: #fff;
@@ -759,15 +735,15 @@ section {
       padding: 15px;
       font-weight: 600;
     }
-  
+
     .loading {
       display: none;
       background: #fff;
       text-align: center;
       padding: 15px;
-  
+
       &:before {
-        content: "";
+        content: '';
         display: inline-block;
         border-radius: 50%;
         width: 24px;
@@ -777,10 +753,10 @@ section {
         border-top-color: #eee;
         animation: animate-loading 1s linear infinite;
       }
-  
     }
 
-    input, textarea {
+    input,
+    textarea {
       border-radius: 0;
       box-shadow: none;
       font-size: 14px;
@@ -797,7 +773,7 @@ section {
       padding: 10px 12px;
     }
 
-    button[type="submit"] {
+    button[type='submit'] {
       background: $primary;
       border: 0;
       padding: 10px 24px;
@@ -808,12 +784,15 @@ section {
         background: darken($primary, 8);
       }
     }
-  
   }
 
   @keyframes animate-loading {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
 
@@ -850,8 +829,7 @@ section {
       display: inline-block;
       padding-right: 10px;
       color: lighten($secondary, 10);
-      content: "/";
+      content: '/';
     }
   }
-
 }
