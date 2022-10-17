@@ -274,6 +274,31 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
         ├── extensions.json
         └── settings.json
     ├── assets
+        ├── css
+            ├── bootstrap.min.css
+        ├── img
+            ├── portfolio
+                ├── 1.jpg
+                ├── 2.jpg
+                ├── 3.jpg
+                ├── 4.jpg
+                ├── 5.jpg
+            ├── team
+                ├── 1.jpg
+                ├── 2.jpg
+                ├── 3.jpg
+                ├── 4.jpg
+                ├── 5.jpg
+            ├── testimonials
+                ├── 1.jpg
+                ├── 2.jpg
+                ├── 3.jpg
+            ├── favicon.png
+            ├── hero-bg.png
+            ├── hero-bg.svg
+            ├── hero-bg2.png
+            ├── hero-bg2.svg
+            ├── hero-bg3.png
     ├── docs
         ├── .gitkeep
         └── README.md
