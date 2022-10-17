@@ -1,5 +1,5 @@
-import { LitElement, css, html } from 'lit'
-import litLogo from './assets/lit.svg'
+import { css, html, LitElement } from 'lit'
+import litLogo from '../assets/lit.svg'
 
 /**
  * An example element.
