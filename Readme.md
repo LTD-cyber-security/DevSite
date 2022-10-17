@@ -885,7 +885,6 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
-    "prettier": "2.0.5",
     "vite": "^3.1.0",
     "husky": "^1.0.0",
     "@types/react": "^18.0.17",
@@ -909,8 +908,12 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
     "onchange": "^4.0.0",
     "react-test-renderer": "^16.4.1",
     "stylelint": "^9.3.0",
-    "stylelint-config-standard": "^18.2.0"
-
+    "stylelint-config-standard": "^18.2.0",
+    "@types/node": "14.14.6",
+    "eslint": "7.12.1",
+    "eslint-config-next": "10.0.3",
+    "eslint-plugin-react": "7.21.5",
+    "prettier": "2.1.2"
   },
   "keywords": [
     "github",
@@ -921,6 +924,10 @@ Primeiro, entre na pasta do projeto e execute `nvm use` para verificar se você 
   "repository": {
     "type": "git",
     "url": "https://github.com/LTD-cyber-security/DevSite"
+  },
+  "resolutions": {
+    "normalize-url": "6.0.1",
+    "glob-parent": "6.0.0"
   },
   "bugs": {
     "url": "https://github.com/LTD-cyber-security/DevSite/issues"
