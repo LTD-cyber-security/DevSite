@@ -237,6 +237,7 @@ Tecnologias utilizadas para o desenvolvimento do projeto:
 
 ***
 
+
 <h2 id = "Application-Structure">🛠️ Application Structure</h2>
 
 A estrutura do website apresentada neste clichê é agrupada principalmente por tipo de arquivo. Observe, no entanto, que esta estrutura serve apenas como um guia, não é de forma alguma prescritiva.
