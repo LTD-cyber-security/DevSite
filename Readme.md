@@ -329,14 +329,36 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
                     ├── bootstrap-grid.css.map
                     ├── bootstrap-grid.min.css
                     ├── bootstrap-grid.min.css.map
+                    ├── bootstrap-grid.rtl.css
+                    ├── bootstrap-grid.rtl.css.map
                     ├── bootstrap-reboot.css
                     ├── bootstrap-reboot.css.map
                     ├── bootstrap-reboot.min.css
                     ├── bootstrap-reboot.min.css.map
+                    ├── bootstrap-reboot.rtl.css
+                    ├── bootstrap-reboot.rtl.css.map
+                    ├── bootstrap-utilities.css
+                    ├── bootstrap-utilities.css.map
+                    ├── bootstrap-reboot.rtl.css
+                    ├── bootstrap-reboot.rtl.css.map
+                    ├── bootstrap-reboot.rtl.min.css
+                    ├── bootstrap-reboot.rtl.min.css.map
+                    ├── bootstrap-utilities.css
+                    ├── bootstrap-utilities.css.map
+                    ├── bootstrap-utilities.min.css
+                    ├── bootstrap-utilities.min.css.map
+                    ├── bootstrap-utilities.rtl.css
+                    ├── bootstrap-utilities.rtl.css.map
+                    ├── bootstrap-utilities.rtl.min.css
+                    ├── bootstrap-utilities.rtl.min.css.map
                     ├── bootstrap.css
                     ├── bootstrap.css.map
                     ├── bootstrap.min.css
-                    └── bootstrap.min.css.map
+                    ├── bootstrap.min.css.map
+                    ├── bootstrap.rtl.css
+                    ├── bootstrap.rtl.css.map
+                    ├── bootstrap.rtl.min.css
+                    └── bootstrap.rtl.min.css.map
                 ├── fonts
                     ├── glyphicons-halflings-regular.eot
                     ├── glyphicons-halflings-regular.svg
@@ -348,10 +370,139 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
                     ├── bootstrap.bundle.js.map
                     ├── bootstrap.bundle.min.js
                     ├── bootstrap.bundle.min.js.map
+                    ├── bootstrap.esm.js
+                    ├── bootstrap.esm.js.map
+                    ├── bootstrap.esm.min.js.map
                     ├── bootstrap.js
                     ├── bootstrap.js.map
                     ├── bootstrap.min.js
                     └── bootstrap.min.js.map
+            ├── bootstrap-icons
+                ├── fonts
+                    ├── bootstrap-icons.woff
+                    └── bootstrap-icons.woff2
+                ├── bootstrap-icons.css
+                ├── bootstrap-icons.json
+                ├── bootstrap-icons.scss
+                ├── LICENSE
+                ├── package.json
+                ├── README.md
+                └── scss
+                    ├── bootstrap-icons.scss
+                    └── _variables.scss
+            
+            ├── boxicons
+                ├── css
+                    ├── boxicons.css
+                    ├── boxicons.min.css
+                    ├── boxicons.min.css.map
+                    ├── boxicons.rtl.css
+                    ├── boxicons.rtl.min.css
+                    └── boxicons.rtl.min.css.map
+                ├── fonts
+                    ├── boxicons.eot
+                    ├── boxicons.svg
+                    ├── boxicons.ttf
+                    ├── boxicons.woff
+                    └── boxicons.woff2
+            ├── glightbox
+                ├── css
+                    ├── glightbox.css
+                    └── glightbox.min.css
+                ├── js
+                    ├── glightbox.js
+                    └── glightbox.min.js
+            ├── isotope-layout
+                ├── isotope.pkgd.js
+                └── isotope.pkgd.min.js
+            ├── php-email-form
+                ├── .gitignore
+                ├── LICENSE
+                ├── php-email-form.js
+                ├── php-email-form.min.js
+                ├── php-email-form.php
+                ├── php-email-form.rtl.css
+                ├── php-email-form.rtl.min.css
+                ├── php-email-form.rtl.min.css.map
+                ├── php-email-form.rtl.min.js
+                ├── php-email-form.rtl.min.js.map
+                ├── php-email-form.rtl.scss
+                ├── php-email-form.scss
+                ├── php-email-form.min.css
+                ├── php-email-form.min.css.map
+                ├── php-email-form.min.js
+                └── php-email-form.min.js.map
+            ├── remixicon
+                ├── fonts
+                    ├── remixicon.eot
+                    ├── remixicon.svg
+                    ├── remixicon.ttf
+                    ├── remixicon.woff
+                    └── remixicon.woff2
+                ├── remixicon.css
+                ├── remixicon.css.map
+                ├── remixicon.js
+                ├── remixicon.min.css
+                ├── remixicon.min.css.map
+                ├── remixicon.min.js
+                ├── remixicon.min.js.map
+                ├── remixicon.rtl.css
+                ├── remixicon.rtl.css.map
+                ├── remixicon.rtl.min.css
+                ├── remixicon.rtl.min.css.map
+                ├── remixicon.rtl.min.js
+                └── remixicon.rtl.min.js.map
+            ├── swiper
+                ├── css
+                    ├── swiper-bundle.css
+                    ├── swiper-bundle.css.map
+                    ├── swiper-bundle.min.css
+                    ├── swiper-bundle.min.css.map
+                    ├── swiper-bundle.rtl.css
+                    ├── swiper-bundle.rtl.css.map
+                    ├── swiper-bundle.rtl.min.css
+                    ├── swiper-bundle.rtl.min.css.map
+                    ├── swiper.css
+                    ├── swiper.css.map
+                    ├── swiper.min.css
+                    ├── swiper.min.css.map
+                    ├── swiper.rtl.css
+                    ├── swiper.rtl.css.map
+                    ├── swiper.rtl.min.css
+                    └── swiper.rtl.min.css.map
+                ├── js
+                    ├── swiper-bundle.js
+                    ├── swiper-bundle.js.map
+                    ├── swiper-bundle.min.js
+                    ├── swiper-bundle.min.js.map
+                    ├── swiper-bundle.rtl.js
+                    ├── swiper-bundle.rtl.js.map
+                    ├── swiper-bundle.rtl.min.js
+                    ├── swiper-bundle.rtl.min.js.map
+                    ├── swiper.esm.bundle.js
+                    ├── swiper.esm.bundle.js.map
+                    ├── swiper.esm.bundle.min.js
+                    ├── swiper.esm.bundle.min.js.map
+                    ├── swiper.esm.bundle.rtl.js
+                    ├── swiper.esm.bundle.rtl.js.map
+                    ├── swiper.esm.bundle.rtl.min.js
+                    ├── swiper.esm.bundle.rtl.min.js.map
+                    ├── swiper.esm.js
+                    ├── swiper.esm.js.map
+                    ├── swiper.esm.min.js
+                    ├── swiper.esm.min.js.map
+                    ├── swiper.esm.rtl.js
+                    ├── swiper.esm.rtl.js.map
+                    ├── swiper.esm.rtl.min.js
+                    ├── swiper.esm.rtl.min.js.map
+                    ├── swiper.js
+                    ├── swiper.js.map
+                    ├── swiper.min.js
+                    ├── swiper.min.js.map
+                    ├── swiper.rtl.js
+                    ├── swiper.rtl.js.map
+                    ├── swiper.rtl.min.js
+                    └── swiper.rtl.min.js.map
             ├── font-awesome
                 ├── css
                     ├── font-awesome.css
