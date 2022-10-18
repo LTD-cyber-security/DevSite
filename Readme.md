@@ -1167,4 +1167,28 @@ Procurando mais orientação? Documentação completa para as lives de Gatsby [n
 
 - **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://www.gatsbyjs.com/docs/).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
 
+## 🎓 Learning Vercel
+
+Procurando mais orientação? Documentação completa para as lives de Vercel [no website](https://vercel.com/). Aqui estão alguns lugares para começar:
+
+- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com Vercel](https://vercel.com/docs).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
+
+- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://vercel.com/docs).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
+
+## 🎓 Learning DatoCMS
+
+Procurando mais orientação? Documentação completa para as lives de DatoCMS [no website](https://www.datocms.com/). Aqui estão alguns lugares para começar:
+
+- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com DatoCMS](https://www.datocms.com/docs).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
+
+- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://www.datocms.com/docs).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
+
+## 🎓 Learning AWS Amplify
+
+Procurando mais orientação? Documentação completa para as lives de AWS Amplify [no website](https://aws.amazon.com/pt/amplify/). Aqui estão alguns lugares para começar:
+
+- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com AWS Amplify](https://docs.amplify.aws/start/q/integration/react).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
+
+- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://docs.amplify.aws/).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⬆️[**Back to top**](#back-to-top)⬆️
