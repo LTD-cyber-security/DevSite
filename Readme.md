@@ -1120,6 +1120,37 @@ NOTA: Todos os logotipos/ícones pertencem aos seus respectivos proprietários, 
 
 Uma simples estrela neste repositório de projeto é suficiente para me manter motivado neste projeto por dias. Se você se achar muito empolgado com este projeto, me avise com um tweet.
 
+Todos os Dev's da organização são voluntários, então se você quiser ajudar a manter este projeto, você pode fazer uma doação para mim. Eu vou usar esse dinheiro para comprar café e manter o projeto atualizado.
+
+<!-- buy a coffee icon -->
+<a href="https://www.buymeacoffee.com/kfields91" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174">
+</a>
+
+<!-- support -->
+
+<a href="https://www.paypal.com/donate?hosted_button_id=Z9Q9ZQZ2Z2Z2Y" target="_blank">
+  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" alt="PayPal" height="41" width="174">
+</a>
+
+<!-- patreon icon -->
+
+<a href="https://www.patreon.com/kfields91" target="_blank">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Patreon" height="41" width="174">
+</a>
+
+<h2 id = "Contributing">🤝 Contribuindo</h2>
+
+Se você tiver alguma ideia sobre como melhorar este projeto, sinta-se à vontade para abrir uma solicitação de recebimento. Se você encontrar algum bug, abra uma issue. Se você quiser corrigir um bug ou adicionar uma nova feature, sinta-se à vontade para abrir uma solicitação de recebimento.
+
+Basta clicar no botão "Star" no topo deste repositório.
+
+Caso não tenha uma conta no Github, você pode me enviar um tweet com o link deste repositório.
+
+<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fkfields91%2FDevSite">
+  <img src="https://img.shields.io/twitter/url/https/twitter.com/intent/tweet?label=Tweet%20to%20support&style=social" alt="tweet to support" />
+</a>
+
 Obrigado!
 
 Contribuições são bem-vindas!
