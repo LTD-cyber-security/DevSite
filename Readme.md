@@ -1,3 +1,5 @@
+<p align="center"> <a name="back-to-top">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <h1 align="center">
     <img src="https://miro.medium.com/max/820/1*Y4Td-XMRtuFAW_8CpO7KyA.png" alt="DevSite" width="2000">
 </h1>
@@ -1164,3 +1166,5 @@ Procurando mais orientação? Documentação completa para as lives de Gatsby [n
 - **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com Gatsby](https://www.gatsbyjs.com/tutorial/).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
 
 - **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://www.gatsbyjs.com/docs/).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⬆️[**Back to top**](#back-to-top)⬆️
