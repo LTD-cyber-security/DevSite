@@ -225,7 +225,7 @@ Basta preencher os dados como `Name`, `Tagline`, `Dev Platforms Username`, `Curr
 
 ---
 
-<h2 id = "tecnologias-utilizadas">🚀 Tecnologias utilizadas</h2>
+## <img  height="45px" align="center" src="assets/stockrocketgif.gif"> Tecnologia Utilizada
 Tecnologias utilizadas para o desenvolvimento do projeto:
 
 - [JQuery](https://jquery.com/)
