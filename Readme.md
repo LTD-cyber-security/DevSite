@@ -1120,7 +1120,7 @@ NOTA: Todos os logotipos/ícones pertencem aos seus respectivos proprietários, 
 
 Uma simples estrela neste repositório de projeto é suficiente para me manter motivado neste projeto por dias. Se você se achar muito empolgado com este projeto, me avise com um tweet.
 
-Todos os Dev's da organização são voluntários, então se você quiser ajudar a manter este projeto, você pode fazer uma doação para mim. Eu vou usar esse dinheiro para comprar café e manter o projeto atualizado.
+Todos os Dev's da organização são voluntários, então se você quiser ajudar a manter este projeto, você pode fazer uma doação para alguma instituição de caridade de sua escolha.
 
 <!-- buy a coffee icon -->
 <a href="https://www.buymeacoffee.com/kfields91" target="_blank">
