@@ -142,6 +142,8 @@ Para mais informações, acesse ao site da política de privacidade do DevSite:
 
 <a href = "https://ltd-cyber-security.github.io/DevSite/privacy-policy.html">https://ltd-cyber-security.github.io/DevSite/privacy-policy.html</a>
 
+<img src="https://media2.giphy.com/media/YOvOkaS5ZKfimDIgwJ/giphy.gif?cid=ecf05e472ipczxdp8km6z40b4fb7q2vin64hh9xqswqyq0gb&rid=giphy.gif&ct=g" />
+
 ---
 
 <h2 id = "screenshots">🔍 Screenshots </h2>
