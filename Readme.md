@@ -148,7 +148,7 @@ Para mais informações, acesse ao site da política de privacidade do DevSite:
 
 ---
 
-<h2 id = "screenshots">🔍 Screenshots </h2>
+<h2 id = "screenshots"><img  height="40px" align="center" src="assets/colorBlock.gif"> Screenshots </h2>
 
 ---
 
