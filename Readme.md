@@ -92,25 +92,25 @@
 
 #### Cansado de editar o README do perfil do Github com novos recursos? Então você está no lugar certo! O DevSite é um projeto open source que permite que você crie um site personalizado para o seu perfil do Github. Ele é construído com o [Next.js](https://nextjs.org/) e pode ser hospedado em diversas plataforma, inclusive no [Vercel](https://vercel.com/).
 
-## 🚀 Começando
+##  <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif">  Começando
 
 #### Para começar, você precisará ter o [Node.js](https://nodejs.org/en/) instalado em sua máquina. Depois disso, você pode clonar o repositório e instalar as dependências
 
 Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github com os complementos mais recentes, como `visitors count`, `github stats` etc.
 
-#### 🚀 Try it out: [Live demo](https://)
+####  <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif">  Try it out: [Live demo](https://)
 
 <p align="center">
   <a href = "#sobre-este-projeto">👨🏻‍💻 Sobre este projeto </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#screenshots">🔍 Screenshots </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#features">🧐 Features </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#features-list">⭐️ Feature list </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href = "#tecnologias-utilizadas">🚀 Tecnologias utilizadas</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href = "#tecnologias-utilizadas"> <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif">  Tecnologias utilizadas</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Application-Structure">🛠️ Application Structure</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#User-usage">📋 User usage</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Developer-usage">🔧 Developer usage</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Directory-Structure">Directory Structure</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href = "#Installation">🚀 Installation</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href = "#Installation"> <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif">  Installation</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Editor-setup">🌟 Editor setup</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Contributing">🤝 Contributing</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Troubleshooting">💢 Troubleshooting</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
