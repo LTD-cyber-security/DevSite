@@ -124,6 +124,8 @@ Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github
 
 <h2 id = "sobre-este-projeto">👨🏻‍💻 Sobre este projeto </h2>
 
+<img src="https://media2.giphy.com/media/YOvOkaS5ZKfimDIgwJ/giphy.gif?cid=ecf05e472ipczxdp8km6z40b4fb7q2vin64hh9xqswqyq0gb&rid=giphy.gif&ct=g" />
+
 🎓 Este projeto foi desenvolvido em resposta a necessidade de ajudar aos mais vulneráveis com conteúdos inserido no repositório da organização LTD-cyber-security de forma simples. O repositório original, DevSite, conta com diversos artigos sobre como se defender contra ataques cyberneticos para os idosos 🛍️ 🚀
 
 Nos ultimos tempos, a pandemia do COVID-19 tem afetado a vida de muitas pessoas, e com isso, a vida dos idosos tem sido afetada de forma mais drástica. Com isso, a organização LTD-cyber-security, tem como objetivo ajudar os idosos a se defenderem de ataques cyberneticos, e com isso, evitar que eles sejam vítimas de golpes e fraudes.
@@ -141,8 +143,6 @@ Futuramente, essa organização pretende fazer uma versão mobile do DevSite, pa
 Para mais informações, acesse ao site da política de privacidade do DevSite:
 
 <a href = "https://ltd-cyber-security.github.io/DevSite/privacy-policy.html">https://ltd-cyber-security.github.io/DevSite/privacy-policy.html</a>
-
-<img src="https://media2.giphy.com/media/YOvOkaS5ZKfimDIgwJ/giphy.gif?cid=ecf05e472ipczxdp8km6z40b4fb7q2vin64hh9xqswqyq0gb&rid=giphy.gif&ct=g" />
 
 ---
 
