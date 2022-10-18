@@ -225,7 +225,7 @@ Basta preencher os dados como `Name`, `Tagline`, `Dev Platforms Username`, `Curr
 
 ---
 
-## <img  height="45px" align="center" src="assets/stockrocketgif.gif"> Tecnologia Utilizada
+## <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Tecnologia Utilizada
 Tecnologias utilizadas para o desenvolvimento do projeto:
 
 - [JQuery](https://jquery.com/)
