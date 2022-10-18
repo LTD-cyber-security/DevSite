@@ -1008,6 +1008,20 @@ yarn type-check
 
 Você pode adicionar o sinalizador `--watch` se quiser continuar observando as alterações feitas nos arquivos de teste.
 
+#### Run the type checker
+
+```bash
+npm run type-check
+#or
+yarn type-check
+```
+
+Você pode adicionar o sinalizador `--watch` se quiser continuar observando as alterações feitas nos arquivos de teste.
+
+<!-- video configurando o vscode com a rocketseat e Diego -->
+
+[![video configurando o vscode com a rocketseat e Diego](https://i.ytimg.com/vi/c7P03kkrEG8/maxresdefault.jpg)](https://www.youtube.com/watch?v=c7P03kkrEG8)
+
 ---
 
 <h2 id = "Editor-setup">🌟 Editor setup</h2>
