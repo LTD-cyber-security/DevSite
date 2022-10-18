@@ -92,7 +92,7 @@
 
 #### Cansado de editar o README do perfil do Github com novos recursos? Então você está no lugar certo! O DevSite é um projeto open source que permite que você crie um site personalizado para o seu perfil do Github. Ele é construído com o [Next.js](https://nextjs.org/) e pode ser hospedado em diversas plataforma, inclusive no [Vercel](https://vercel.com/).
 
-## 🚀 Começando
+## <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Começando
 
 #### Para começar, você precisará ter o [Node.js](https://nodejs.org/en/) instalado em sua máquina. Depois disso, você pode clonar o repositório e instalar as dependências
 
