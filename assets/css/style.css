@@ -447,6 +447,22 @@ section {
   font-size: 24px;
   line-height: 0;
 }
+.services .iconalert {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 2px solid #a53d3d;
+}
+.services .iconalert i {
+  color: #a53d3d;
+  font-size: 24px;
+  line-height: 0;
+}
 .services .title {
   margin-left: 90px;
   font-weight: 700;
@@ -455,6 +471,16 @@ section {
 }
 .services .title a {
   color: #052c3f;
+  transition: 0.3s;
+}
+.services .titlealert {
+  margin-left: 90px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.services .titlealert a {
+  color: #5f2626;
   transition: 0.3s;
 }
 .services .description {
@@ -471,6 +497,16 @@ section {
 .services .icon-box:hover .title a {
   color: #85b0be;
 }
+.services .icon-box:hover .iconalert {
+  background: #a53d3d;
+}
+.services .icon-box:hover .iconalert i {
+  color: #fff;
+}
+.services .icon-box:hover .titlealert a {
+  color: #a53d3d;
+}
+
 
 /*--------------------------------------------------------------
 # Featured
