@@ -11,12 +11,17 @@ a {
   text-decoration: none;
 }
 
-a:hover  {
+a:hover {
   color: lighten($primary, 10);
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-primary;
 }
 
@@ -42,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0;
   }
 
-  &:hover  {
+  &:hover {
     background: lighten($primary, 8);
     color: #fff;
   }
@@ -51,5 +56,4 @@ h1, h2, h3, h4, h5, h6 {
     visibility: visible;
     opacity: 1;
   }
-
 }

@@ -1,34 +1,14 @@
-// utilizando classes para criar o servidor e o cliente para rodar o arquivo index.html
+var express = require('express');
+var router = express.Router();
 
-import express from 'express';
-import http from 'http';
-import path from 'path';
-import socketio from 'socket.io';
+// Home page route
+router.get('/', function(req, res) {
+  res.send('Wiki home page');
+});
 
-class Server {
-  public app: express.Application;
-  public server: http.Server;
-  public io: socketio.Server;
+// About page route
+router.get('/about', function(req, res) {
+  res.send('About this wiki');
+});
 
-  constructor() {
-    this.app = express();
-    this.server = http.createServer(this.app);
-    this.io = socketio(this.server);
-
-    this.listen();
-  }
-
-  private listen(): void {
-    this.server.listen(3333);
-  }
-}
-
-const server = new Server();
-
-server.app.use(express.static(path.join(__dirname, '..', 'public')));
-
-server.io.on('connection', socket => {
-  console.log('New connection', socket.id);
-}
-
-// Language: typescript
+module.exports = router;
