@@ -255,9 +255,6 @@ Obrigado!
 
 Contribuições são bem-vindas!
 
-<!-- adicionando um gif da pasta local -->
-<img src=" public/video/nft-gif.gif" width="400px">
-
 <h2 id = "Online-Deployment">💎 Online Deployment</h2>
 
 A seguir estão os serviços de implantação online recomendados que são testados para funcionar com este projeto. Se você quiser adicionar um serviço de implantação, basta abrir um problema.
