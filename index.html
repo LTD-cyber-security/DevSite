@@ -4,10 +4,31 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Inclua os links para o Bootstrap CSS e JavaScript -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="/src/main.tsx"></script>
     <title>Vlava Bootstrap Template - Index</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function enviarFormulario() {
+        var form = document.getElementById("formulario");
+        var mensagemEnviada = document.getElementById("mensagem-enviada");
+      
+        // Envie os dados para o servidor (simulação)
+        // Aqui você pode adicionar código para enviar os dados para um servidor de e-mail
+
+        // Exiba a mensagem de envio bem-sucedido
+        mensagemEnviada.style.display = "block";
+
+        // Recarregue a página após 3 segundos (você pode ajustar o tempo)
+        setTimeout(function() {
+          location.reload();
+        }, 3000); // 3000 milissegundos = 3 segundos
+      }
+    </script>
 
     <!-- Favicons -->
     <link href="../../assets/img/favicon.png" rel="icon" />
@@ -848,7 +869,7 @@
       </section>
       <!-- End Frequently Asked Questions Section -->
 
-      <!-- ======= Contact Section ======= -->
+      <!-- ======= Contact Section =======
       <section id="contact" class="contact section-bg">
         <div class="container">
           <div class="section-title">
@@ -858,112 +879,64 @@
               de conveniência, que de fato estão aqui.
             </p>
           </div>
-        </div>
-        <div class="map">
-          adicionar uma nova Localização da Estácio
-          https://goo.gl/maps/a9X2pC9V7AASeGMx8 do Google Maps
-          <iframe
-            style="border: 0; width: 100%; height: 350px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2000000000003!2d-46.63333333333333!3d-23.55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a1f0b5b0b0b%3A0x3e7c5b2b2b2b2b2b!2sEst%C3%A1cio%20de%20S%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1625580000000!5m2!1spt-BR!2sbr"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <!-- <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/place/Estácio+Floripa/@-27.5947961,-48.5546031,17z/data=!4m5!3m4!1s0x952739a2d31eba0b:0xd1567c918a57a4c2!8m2!3d-27.593484!4d-48.551769" frameborder="0" allowfullscreen></iframe> -->
-        </div>
-        <div class="container">
-          <div class="row mt-5 justify-content-center">
-            <div class="col-lg-10">
-              <div class="info-wrap">
-                <div class="row">
-                  <div class="col-lg-4 info">
-                    <i class="bi bi-geo-alt"></i>
-                    <h4>Localização:</h4>
-                    <p>A108 Adam Street<br />New York, NY 535022</p>
-                  </div>
-
-                  <div class="col-lg-4 info mt-4 mt-lg-0">
-                    <i class="bi bi-envelope"></i>
-                    <h4>Email:</h4>
-                    <p>info@example.com<br />contact@example.com</p>
-                  </div>
-
-                  <div class="col-lg-4 info mt-4 mt-lg-0">
-                    <i class="bi bi-phone"></i>
-                    <h4>Call:</h4>
-                    <p>+1 5589 55488 51<br />+1 5589 22475 14</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row mt-5 justify-content-center">
-            <div class="col-lg-10">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col-md-6 form-group">
+        </div> -->
+         <section id="contact" class="contact">
+          <div class="container">
+            <div class="row mt-5 justify-content-center">
+              <div class="col-lg-8">
+                <form
+                  id="formulario"
+                  method="post"
+                  role="form"
+                  class="php-email-form"
+                  onsubmit="enviarFormulario(); return false;" <!-- Evita o envio padrão do formulário -->
+                  <div class="mb-3">
                     <input
                       type="text"
                       name="name"
                       class="form-control"
-                      id="name"
                       placeholder="Nome completo"
                       required
                     />
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <div class="mb-3">
                     <input
                       type="email"
                       class="form-control"
                       name="email"
-                      id="email"
                       placeholder="Melhor Email"
                       required
                     />
                   </div>
-                </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Sujeito"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Mensagem"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Carregando ..</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Sua Mensagem foi enviada com sucesso. Obrigado!
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Sujeito"
+                      required
+                    />
                   </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="5"
+                      placeholder="Mensagem"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Enviar Email</button>
+                  </div>
+                </form>
+                <div id="mensagem-enviada" class="alert alert-success mt-3" style="display: none;">
+                  Sua mensagem foi enviada com sucesso. Obrigado!
                 </div>
-                <div class="text-center">
-                  <button type="submit">Enviar Email</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
+        </section>
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
