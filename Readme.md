@@ -56,7 +56,6 @@
   <a href = "#Editor-setup">🌟 Editor setup</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Contributing">🤝 Contributing</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Troubleshooting">💢 Troubleshooting</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href = "#leitura">📚 Leitura e links recomendados</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Contact-Information">👨🏻‍🚀 Contact Information</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#licenca">🧾 Licença</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href = "#Built-on-the-shoulders-of-giants">💫 Built on the shoulders of giants</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -213,28 +212,6 @@ Sinta-se à vontade para verificar a página de problemas se quiser contribuir e
 <h2 id = "Troubleshooting">💢 Troubleshooting</h2>
 
 Este é apenas um projeto pessoal criado para fins de estudo/demonstração e para simplificar minha vida profissional, pode ou não ser uma boa opção para o seu projeto!
-
-<h2 id = "leitura">📚 Leitura e links recomendados</h2>
-
-- [🎯 Deploying a HTML5 game to GitHub Pages](https://medium.com/@jamesjara/deploying-a-html5-game-to-github-pages-2eb9a5d212a2)
-- [🎯 GitHub Pages](https://pages.github.com/)
-- [🎯 HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [🎯 CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [🎯 JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [🎯 HTML5 e CSS3](https://www.youtube.com/watch?v=ghTrp1x_1As&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp)
-- [🎯 JavaScript ES6](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=2)
-- [🎯 Node.js](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=3)
-- [🎯 ReactJS](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=4)
-- [🎯 React Native](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=5)
-- [🎯 TypeScript](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=6)
-- [🎯 Next.js](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=8)
-- [🎯 Styled Components](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=9)
-- [🎯 Prisma](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=10)
-- [🎯 GraphQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=11)
-- [🎯 Docker](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=12)
-- [🎯 MongoDB](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=13)
-- [🎯 PostgreSQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=14)
-- [🎯 MySQL](https://www.youtube.com/watch?v=DiXbJL3iWVs&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=15)
 
 ---
 
