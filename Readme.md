@@ -152,45 +152,6 @@ Para mais informações, acesse ao site da política de privacidade do DevSite:
 
 ---
 
-<h2 id = "features">🧐 Features </h2>
-
-<h1 align="center">
-    <img src="https://thumbs.gfycat.com/VigorousMintyArchaeocete-size_restricted.gif" alt="DevSite" width="600">
-</h1>
-
-- ⚡️ Next.js 12 (Versão 1.0.0 -> Projeto em desenvolvimento 🚧)
-- ⚛️ React 18 (Versão 1.0.0 -> Projeto em desenvolvimento 🚧)
-- ⛑ TypeScript - SuperSet do JavaScript (Versão 1.0.0 -> Projeto em desenvolvimento 🚧)
-- 📏 ESLint — Para encontrar e corrigir problemas em seu código
-- 💖 Prettier — Formatador de código para estilo consistente
-- 🛍️ vscode — Editor de código recomendado
-- 🚓 Commitlint — Para garantir que suas mensagens de commit sigam a convenção
-- ⭐️ nodemon — Para reiniciar o servidor automaticamente quando os arquivos são alterados
-- 📦 yarn — Para gerenciar as dependências do projeto
-- 📦 npm — Para gerenciar as dependências do projeto
-- 📦 pnm — Para gerenciar as dependências do projeto
-- 🎉 express — Para criar o servidor e as rotas da aplicação web
-- 🖌 Renovate — Para manter suas dependências atualizadas
-- 🚫 lint-staged — Execute ESLint e Prettier em arquivos Git preparados
-- 👷 PR Workflow — Executar verificação de tipo e linters em solicitações pull
-- ⚙️ EditorConfig - CEstilos de codificação consistentes entre editores e IDEs
-- 🗂 Path Mapping — Importar componentes ou imagens usando o prefixo `@`
-- 📦 Absolute Imports — Importe componentes ou imagens usando o prefixo `~`
-- 🌟 gatsby-plugin-image — Para carregar imagens de forma otimizada
-- 🌟 gatsby-plugin-sharp — Para otimizar imagens
-- 🌟 gatsby-transformer-sharp — Para otimizar imagens
-- 🌟 gatsby-plugin-mdx — Para escrever conteúdo em Markdown
-- 🌟 gatsby-plugin-react-helmet — Para gerenciar o cabeçalho da página
-- 🌟 gatsby-plugin-typescript — Para usar TypeScript
-- 🌟 gatsby-plugin-styled-components — Para usar Styled Components
-- 🌟 gatsby-plugin-google-analytics — Para adicionar o Google Analytics
-- 🌟 gatsby-plugin-sitemap — Para gerar um sitemap
-- 🌟 gatsby-plugin-robots-txt — Para gerar um arquivo robots.txt
-
-Basta preencher os dados como `Name`, `Tagline`, `Dev Platforms Username`, `Current Work`, `Portfolio`, `Blog` etc. com uma interface de usuário mínima.
-
----
-
 <h2 id = "features-list">⭐️ Feature list </h2>
 
 - [x] Os campos de imagem e texto têm várias opções, como alinhamento, tamanhos, ajuste à tela
@@ -1178,62 +1139,10 @@ Contribuições são bem-vindas!
 
 A seguir estão os serviços de implantação online recomendados que são testados para funcionar com este projeto. Se você quiser adicionar um serviço de implantação, basta abrir um problema.
 
-[![Deploy with CloudRun](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run?git_repo=https://github.com/LTD-cyber-security/DevSite)
-
-[![Deploy with AWS Amplify](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/LTD-cyber-security/DevSite)
-
-[![Deploy with DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/LTD-cyber-security/DevSite/tree/main)
-
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/DevSite)
-
-[![Deploy with Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/LTD-cyber-security/DevSite)
-
-<!-- [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/NBfBbp?referralCode=km83_N) -->
-
-[![Deploy with Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FLTD-cyber-security%2FDevSite%2Fmain%2Fazuredeploy.json)
-
-[![Deploy with AWS](https://www.herokucdn.com/deploy/button.svg)](https://aws.amazon.com/pt/console/)
-
-[![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LTD-cyber-security/DevSite)
-
 [![Deploy with netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LTD-cyber-security/DevSite)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/LTD-cyber-security/DevSite/tree/main&project-name=animeflix&repo-name=animeflix&root-directory=frontend&build-command=cd%20../%20%26%26%20yarn%20build&install-command=cd%20../%20%26%26%20yarn%20install)
 
-[![Deploy with Firebase](https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png)](https://firebase.google.com/)
 
-## 🎓 Learning Gatsby
-
-Procurando mais orientação? Documentação completa para as lives de Gatsby [no website](https://www.gatsbyjs.com/). Aqui estão alguns lugares para começar:
-
-- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com Gatsby](https://www.gatsbyjs.com/tutorial/).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
-
-- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://www.gatsbyjs.com/docs/).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
-
-## 🎓 Learning Vercel
-
-Procurando mais orientação? Documentação completa para as lives de Vercel [no website](https://vercel.com/). Aqui estão alguns lugares para começar:
-
-- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com Vercel](https://vercel.com/docs).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
-
-- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://vercel.com/docs).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
-
-## 🎓 Learning DatoCMS
-
-Procurando mais orientação? Documentação completa para as lives de DatoCMS [no website](https://www.datocms.com/). Aqui estão alguns lugares para começar:
-
-- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com DatoCMS](https://www.datocms.com/docs).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
-
-- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://www.datocms.com/docs).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
-
-## 🎓 Learning AWS Amplify
-
-Procurando mais orientação? Documentação completa para as lives de AWS Amplify [no website](https://aws.amazon.com/pt/amplify/). Aqui estão alguns lugares para começar:
-
-- **Para a maioria dos desenvolvedores, recomendamos começar com nosso [tutorial detalhado para criar um site com AWS Amplify](https://docs.amplify.aws/start/q/integration/react).** Ele começa com zero suposições sobre seu nível de habilidade e percorre todas as etapas do processo.
-
-- **Para mergulhar direto nas amostras de código, vá [à nossa documentação](https://docs.amplify.aws/).** Em particular, confira o _Guias_, _Referência API_, e _Tutoriais Avançados_ seções na barra lateral.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;⬆️[**Back to top**](#back-to-top)⬆️

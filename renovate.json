@@ -1,0 +1,7 @@
+{
+    "extends": ["config:base"],
+    "automerge": true,
+    "labels": ["renovate"],
+    "timezone": "America/New_York"
+  }
+  
