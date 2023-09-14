@@ -19,32 +19,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://" target="blank">View Demo</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=bug&template=bug.md&title=">Report Bug</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=naomi-lgbt&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=chore.yml&title=%5BCHORE%5D+-+">Chore</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=naomi-lgbt&labels=%F0%9F%9A%A6+status%3A+awaiting+triage&template=documentation.yml&title=%5BDOC%5D+-+">Documentation</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=gh+profile+review%2Clive+stream+review&template=gh-profile-review.yml&title=%5BREVIEW%5D+%3Cyour-username%3E">GitHub Profile Review</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=gh+sponsor+review%2Clive+stream+review&template=github-sponsors-profile-review.yml&title=%5BREVIEW%5D+%3Cprofile+name+here%3E">GitHub Sponsors Profile Review</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=enhancement&template=ideas.md&title=">Ideas</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=open+source+review%2C+live+stream+review&template=opensource-review.md&title=%5BREVIEW%5D">Open Source Project Review</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=triage&template=other.yml&title=%5BOTHER%5D">Other</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=portfolio+review%2C+live+stream+review&template=portfolio-review.md&title=%5BREVIEW%5D">Portfolio Review</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/issues/new?assignees=&labels=resume+review%2C+live+stream+review&template=resume-review.md&title=%5BREVIEW%5D">Resume Review</a>
-    ·
-    <a href="https://github.com/LTD-cyber-security/support/security/policy">Report a security vulnerability</a>
-</p>
-
 #### <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Try it out: [Live demo](https://65035e09ae2cec1d4f398f19--iridescent-biscotti-eec0d5.netlify.app/)
 
 <p align="center">
