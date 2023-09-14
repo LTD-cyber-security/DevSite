@@ -154,31 +154,15 @@ Uma rápida olhada nos arquivos e diretórios de nível superior que você verá
 
 ---
 
-Then:
-
-- Escolha um projeto de pasta em seu sistema e alterne `cd [folder path]`
-- Clone o repositório em sua pasta: `git clone https://github.com/LTD-cyber-security/DevSite.git`
-
----
-
 <h2 id = "Directory-Structure">Directory Structure </h2>
 
 - [`.github`](.github) — Configuração do GitHub, incluindo o fluxo de trabalho de CI.<br>
 - [`public`](./public) — Recursos estáticos, como robots.txt, imagens e favicon.<br>
 - [`src`](./src) — Código-fonte do aplicativo, incluindo páginas, componentes, estilos.
 
-## Scripts
-
-- `pnpm dev` — Starts the application in development mode at `http://localhost:3000`.
-- `pnpm build` — Creates an optimized production build of your application.
-- `pnpm start` — Starts the application in production mode.
-- `pnpm type-check` — Validate code using TypeScript compiler.
-- `pnpm lint` — Runs ESLint for all files in the `src` directory.
-- `pnpm format` — Runs Prettier for all files in the `src` directory.
-
 ---
 
-#### Start the project
+### Start the project
 
 ---
 
@@ -329,8 +313,6 @@ Contribuições são bem-vindas!
 
 <!-- adicionando um gif da pasta local -->
 <img src=" public/video/nft-gif.gif" width="400px">
-
----
 
 <h2 id = "Online-Deployment">💎 Online Deployment</h2>
 
