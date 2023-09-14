@@ -45,8 +45,6 @@
     <a href="https://github.com/LTD-cyber-security/support/security/policy">Report a security vulnerability</a>
 </p>
 
-#### Cansado de editar o README do perfil do Github com novos recursos? Então você está no lugar certo! O DevSite é um projeto open source que permite que você crie um site personalizado para o seu perfil do Github. Ele é construído com o [Next.js](https://nextjs.org/) e pode ser hospedado em diversas plataforma, inclusive no [Vercel](https://vercel.com/).
-
 #### <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Try it out: [Live demo](https://65035e09ae2cec1d4f398f19--iridescent-biscotti-eec0d5.netlify.app/)
 
 <p align="center">
