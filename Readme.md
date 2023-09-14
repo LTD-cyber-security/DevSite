@@ -13,7 +13,6 @@
     <img alt="Issues" src="https://img.shields.io/github/issues/LTD-cyber-security/DevSite">
     <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/LTD-cyber-security/DevSite">
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/LTD-cyber-security/DevSite">
-    <img alt="GitHub Count" src="https://img.shields.io/github/languages/count/LTD-cyber-security/DevSite">
     <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=LTD-cyber-security&color=blueviolet">
     <a href="https://twitter.com/LTDcybersec">
         <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/LTDcybersec?style=social">
@@ -48,13 +47,7 @@
 
 #### Cansado de editar o README do perfil do Github com novos recursos? Então você está no lugar certo! O DevSite é um projeto open source que permite que você crie um site personalizado para o seu perfil do Github. Ele é construído com o [Next.js](https://nextjs.org/) e pode ser hospedado em diversas plataforma, inclusive no [Vercel](https://vercel.com/).
 
-## <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Começando
-
-#### Para começar, você precisará ter o [Node.js](https://nodejs.org/en/) instalado em sua máquina. Depois disso, você pode clonar o repositório e instalar as dependências
-
-Esta ferramenta fornece uma maneira fácil de criar o readme do perfil do github com os complementos mais recentes, como `visitors count`, `github stats` etc.
-
-#### <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Try it out: [Live demo](https://)
+#### <img  height="45px" align="center" src="assets/gif/stockrocketgif.gif"> Try it out: [Live demo](https://65035e09ae2cec1d4f398f19--iridescent-biscotti-eec0d5.netlify.app/)
 
 <p align="center">
   <a href = "#sobre-este-projeto">👨🏻‍💻 Sobre este projeto </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
