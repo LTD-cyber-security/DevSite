@@ -33,7 +33,18 @@
   <!-- Favicons -->
   <link href="../../assets/img/favicon.png" rel="icon" />
   <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Inclua os arquivos CSS e JavaScript do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Inclua os arquivos da biblioteca FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Estilize o ícone */
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  </style>
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -1062,178 +1073,114 @@
             <h2>perguntas frequentes</h2>
           </div>
 
-          <div class="row d-flex align-items-stretch">
-            <div class="col-lg-6 faq-item">
-              <i class="bx bx-help-circle"></i>
-              <h4>Não será seguido por um foi para o leito de duas urnas?</h4>
-              <p>
-                O preço do produto é muito baixo. A identificação da urna com
-                alvo no tempo volutpat lacus laoreet não será atendida durante a
-                gravidez. Cama Venenatis grande fringilla urna porttitor rhoncus
-                dor pura não.
-              </p>
+          <div class="container mt-5 text-center">
+            <h1 class="mb-4">Perguntas Frequentes sobre Defesa contra Ataques Cibernéticos</h1>
+
+            <div class="faq mb-4">
+              <h4><i class="icon fas fa-question-circle"></i> O que são ataques cibernéticos?</h4>
+              <p>Os ataques cibernéticos são tentativas de invadir sistemas de computador, redes ou dispositivos para
+                roubar
+                informações, causar danos ou interromper operações.</p>
             </div>
 
-            <div class="col-lg-6 faq-item">
-              <i class="bx bx-help-circle"></i>
-              <h4>O chocolate está agora na boca das crianças?</h4>
-              <p>
-                . Às vezes é apenas uma questão de tempo. Chocolate Fragilla
-                phasellus faucibus eleifend até o preço. É um grande trunfo para
-                as crianças.
-              </p>
+            <div class="faq mb-4">
+              <h4><i class="icon fas fa-shield-alt"></i> Como posso proteger minhas senhas?</h4>
+              <p>Para proteger suas senhas, use senhas fortes e únicas para cada conta, ative a autenticação de dois
+                fatores
+                sempre que possível e evite compartilhar senhas por e-mail ou mensagens.</p>
             </div>
 
-            <div class="col-lg-6 faq-item">
-              <i class="bx bx-help-circle"></i>
-              <h4>
-                A dor deve ser acompanhada pela educação das pessoas que
-                convivem com a doença?
-              </h4>
-              <p>
-                Eleifend mi em nenhum lugar para colocar qualquer preocupação
-                com as flechas de basquete da clínica. Para todo o elemento do
-                travesseiro. Se não houver aljava no diâmetro, os jogadores a
-                receberão. Rutrum terlus pellentesque eu tincidunt. Cama urna
-                dois vale vale vale.
-              </p>
-            </div>
+            <!-- Adicione mais perguntas e respostas aqui conforme necessário -->
 
-            <div class="col-lg-6 faq-item">
-              <i class="bx bx-help-circle"></i>
-              <h4>
-                E eu odeio o tempo dos ensaios clínicos. Alguns dos meus
-                adolescentes não são de forma alguma?
-              </h4>
-              <p>
-                A dor deve ser acompanhada pela educação das pessoas que
-                convivem com a doença. Às vezes é apenas uma questão de tempo.
-                Chocolate Fragilla phasellus faucibus eleifend até o preço. É um
-                grande trunfo para as crianças.
-              </p>
-            </div>
-
-            <div class="col-lg-6 faq-item">
-              <i class="bx bx-help-circle"></i>
-              <h4>É hora das crianças comerem uma salada e uma salada?</h4>
-              <p>
-                Foi um incômodo para os alvos, mas foi uma vantagem para os
-                alunos. Vale a pena esperar antes. Agora, até mesmo um sorriso é
-                uma boa maneira de desenhar uma camada de cortinas. Deve ser um
-                monte de fãs para beber. Pura grávida que lisonjeia o curso feio
-              </p>
-            </div>
-
-            <div class="col-lg-6 faq-item">
-              <i class="bx bx-help-circle"></i>
-              <h4>
-                A coroa da vida é pura para enfeitar o paladar. Varius, ou uma
-                aljava, ou um tubarão, agora precisa de um computador?
-              </h4>
-              <p>
-                Laureet deixou que fosse um curso de ação. Toda a vida útil das
-                ultrícias de Mauris é esperada agora ou Não há necessidade de
-                corantes, a menos que seja importante. Mas agora é uma coisa
-                terrível. A fim de proteger a terra com medo de vulputate eu
-                scelerisque.
-              </p>
-            </div>
           </div>
+
+          <!-- Inclua os arquivos JavaScript do Bootstrap no final do corpo -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</body>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="row mt-5 justify-content-center">
+      <div class="col-lg-8">
+        <form id="formulario" method="post" role="form" class="php-email-form"
+          onsubmit="enviarFormulario(); return false;" <!-- Evita o envio padrão do formulário -->
+          <div class="mb-3">
+            <input type="text" name="name" class="form-control" placeholder="Nome completo" required />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Melhor Email" required />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="subject" placeholder="Sujeito" required />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Enviar Email</button>
+          </div>
+        </form>
+        <div id="mensagem-enviada" class="alert alert-success mt-3" style="display: none;">
+          Sua mensagem foi enviada com sucesso. Obrigado!
         </div>
-      </section>
-      <!-- End Frequently Asked Questions Section -->
+      </div>
+    </div>
+  </div>
+</section>
 
-      <!-- ======= Contact Section =======
-      <section id="contact" class="contact section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Contato</h2>
-            <p>
-              Que ele evite grandes esforços de conveniência nestes escritórios
-              de conveniência, que de fato estão aqui.
-            </p>
-          </div>
-        </div> -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="row mt-5 justify-content-center">
-            <div class="col-lg-8">
-              <form id="formulario" method="post" role="form" class="php-email-form"
-                onsubmit="enviarFormulario(); return false;" <!-- Evita o envio padrão do formulário -->
-                <div class="mb-3">
-                  <input type="text" name="name" class="form-control" placeholder="Nome completo" required />
-                </div>
-                <div class="mb-3">
-                  <input type="email" class="form-control" name="email" placeholder="Melhor Email" required />
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control" name="subject" placeholder="Sujeito" required />
-                </div>
-                <div class="mb-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary">Enviar Email</button>
-                </div>
-              </form>
-              <div id="mensagem-enviada" class="alert alert-success mt-3" style="display: none;">
-                Sua mensagem foi enviada com sucesso. Obrigado!
-              </div>
-            </div>
-          </div>
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <h3>Newsletter</h3>
+          <h4>Receba as últimas notícias no seu email</h4>
+          <p>Inscreva-se em nossa newsletter para receber atualizações e notícias diretamente na sua caixa de
+            entrada.</p>
         </div>
-      </section>
+      </div>
 
-      <!-- ======= Footer ======= -->
-      <footer id="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <h3>Newsletter</h3>
-                <h4>Receba as últimas notícias no seu email</h4>
-                <p>Inscreva-se em nossa newsletter para receber atualizações e notícias diretamente na sua caixa de
-                  entrada.</p>
-              </div>
-            </div>
-
-            <div class="row footer-newsletter justify-content-center">
-              <div class="col-lg-6">
-                <form action="" method="post">
-                  <input type="email" name="email" placeholder="Enter your Email" /><input type="submit"
-                    value="Subscribe" />
-                </form>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
+      <div class="row footer-newsletter justify-content-center">
+        <div class="col-lg-6">
+          <form action="" method="post">
+            <input type="email" name="email" placeholder="Enter your Email" /><input type="submit" value="Subscribe" />
+          </form>
         </div>
+      </div>
 
-        <div class="container footer-bottom clearfix">
-          <div class="copyright">
-            &copy; Direito autoral <strong><span>LTD</span></strong>. Todos os direitos reservados
-          </div>
-        </div>
-      </footer>
-      <!-- End Footer -->
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
 
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-          class="bi bi-arrow-up-short"></i></a>
+  <div class="container footer-bottom clearfix">
+    <div class="copyright">
+      &copy; Direito autoral <strong><span>LTD</span></strong>. Todos os direitos reservados
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
 
-      <!-- Vendor JS Files -->
-      <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
-      <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
-      <script src="../../assets/vendor/php-email-form/validate.js"></script>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
 
-      <!-- Template Main JS File -->
-      <script src="../../assets/js/main.js"></script>
+<!-- Vendor JS Files -->
+<script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../../assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="../../assets/js/main.js"></script>
 </body>
