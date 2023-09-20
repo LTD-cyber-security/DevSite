@@ -1,96 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Inclua os links para o Bootstrap CSS e JavaScript -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="/src/main.tsx"></script>
-    <title>Protegendo Sua Privacidade na Internet</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      function enviarFormulario() {
-        var form = document.getElementById("formulario");
-        var mensagemEnviada = document.getElementById("mensagem-enviada");
-      
-        // Envie os dados para o servidor (simulação)
-        // Aqui você pode adicionar código para enviar os dados para um servidor de e-mail
 
-        // Exiba a mensagem de envio bem-sucedido
-        mensagemEnviada.style.display = "block";
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Inclua os links para o Bootstrap CSS e JavaScript -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="/src/main.tsx"></script>
+  <title>Protegendo Sua Privacidade na Internet</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function enviarFormulario() {
+      var form = document.getElementById("formulario");
+      var mensagemEnviada = document.getElementById("mensagem-enviada");
 
-        // Recarregue a página após 3 segundos (você pode ajustar o tempo)
-        setTimeout(function() {
-          location.reload();
-        }, 3000); // 3000 milissegundos = 3 segundos
-      }
-    </script>
+      // Envie os dados para o servidor (simulação)
+      // Aqui você pode adicionar código para enviar os dados para um servidor de e-mail
 
-    <!-- Favicons -->
-    <link href="../../assets/img/favicon.png" rel="icon" />
-    <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+      // Exiba a mensagem de envio bem-sucedido
+      mensagemEnviada.style.display = "block";
+    }
+  </script>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+  <title>LTD - Cybersecurity</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="../../assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../../assets/vendor/boxicons/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="../../assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="../../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link
-      href="../../assets/vendor/swiper/swiper-bundle.min.css"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="../../assets/img/favicon.png" rel="icon" />
+  <link href="../../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Template Main CSS File -->
-    <link href="../../assets/css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header
-      id="header"
-      class="fixed-top d-flex align-items-center header-transparent"
-    >
-      <div class="container d-flex align-items-center justify-content-between">
-        <div class="logo">
-          <h1><a href="index.html">Vlava</a></h1>
+  <!-- Vendor CSS Files -->
+  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="../../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="../../assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">LTD Cybersecurity</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
+          <li class="dropdown"><a href="#"><span>Segurança</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Golpes por redes sociais</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li> -->
+              <li><a href="#">Golpes por ligação</a></li>
+              <li><a href="#">Ataques por vírus</a></li>
+              <li><a href="#">Segurança nos sites</a></li>
+              <li><a href="#">Serviços úteis</a></li>
+              <li><a href="#">Caiu em um golpe?</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- deixar a imagem responsiva na section -->
+  <section id="hero">
+    <div class="hero-container">
+      <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+      <!-- deixar a imagem responsiva -->
+      <h1>Se mantenha seguro</h1>
+      <h2>Projeto estudantil com objetivo de conscientizar idosos a segurança</h2>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <h2>O que é o projeto LTD de segurança?</h2>
+            <h3>Projeto de cunho estudantil dos alunos da faculdade Estácio de Sá de Florianópolis.<br>Dirigido pelo
+              Prof. Eng. Vagner Cordeiro, em associação ao projeto LTD e NID.</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              A intenção do projeto é conscientizar os idosos sobre a segurança durante a navegação na internet, dando a
+              eles o conhecimento sobre os golpes e ataques existentes, metodo de prevenção aos mesmos e o que deve ser
+              feito caso sofra um golpe ou ataque. Dentre os nosso objetivos, estão:
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Garantir a veracidade das informações inseridas aqui.</li>
+              <li><i class="ri-check-double-line"></i>Repassar conhecimento de maneira compreensível e intuitiva.</li>
+              <li><i class="ri-check-double-line"></i>Gerar um repositório seguro para a pesquisa a seguranças.</li>
+            </ul>
+            <p class="fst-italic">
+              Junto do projeto, apresentamos aos ídosos, palestras com o objetivo de solidar o conhecimento a tudo
+              apresentado.
+            </p>
+          </div>
         </div>
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-            <li><a class="nav-link scrollto" href="#about">Sobre</a></li>
-            <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#team">Time</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Suspenso</span> <i class="bi bi-chevron-down"></i
-              ></a>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Informações</h2>
+          <p>Mantenha a segurança cibernética no cotidiano.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-whatsapp"></i></div>
+            <h4 class="title"><a href="">Golpes por redes sociais</a></h4>
+            <p class="description">Clique aqui para ver os golpes mais comuns por mensagens.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-telephone"></i></div>
+            <h4 class="title"><a href="">Golpes por ligação</a></h4>
+            <p class="description">Clique aqui para ver os golpes mais comuns por ligações telefonicas.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-shield-exclamation"></i></div>
+            <h4 class="title"><a href="">Ataques por vírus</a></h4>
+            <p class="description">Clique aqui para obter mais informações sobre ataques malíciosos.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-pc-display-horizontal"></i></div>
+            <h4 class="title"><a href="">Segurança nos sites</a></h4>
+            <p class="description">Clique aqui para obter mais informações sobre como se manter seguro na navegação em
+              sites.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="bi bi-shield-check"></i></div>
+            <h4 class="title"><a href="">Serviços úteis</a></h4>
+            <p class="description">Aqui compartilhamos serviços que podem lhe ajudar a manter sua segurança de forma
+              confíavel.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="iconalert"><i class="bi bi-exclamation-square"></i></div>
+            <h4 class="titlealert"><a href="">Caiu em um golpe?</a></h4>
+            <p class="description">Saiba como reagir após sofrer um golpe ou ataque cibernético.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="card">
+              <img src="assets/img/featured-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Autem sunt earum</a></h5>
+                <p class="card-text">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae
+                  dolores dolorem tempore</p>
+                <a href="#" class="btn">Explore more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="card">
+              <img src="assets/img/featured-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Nobis et tempore</a></h5>
+                <p class="card-text">Ut quas omnis est. Non et aut tempora dignissimos similique in dignissimos. Sit
+                  incidunt et odit iusto</p>
+                <a href="#" class="btn">Explore more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="card">
+              <img src="assets/img/featured-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Facere quia quae dolores</a></h5>
+                <p class="card-text">Modi ut et delectus. Modi nobis saepe voluptates nostrum. Sed quod consequatur quia
+                  provident dera</p>
+                <a href="#" class="btn">Explore more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container position-relative">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit onsequatur ex aliquid fuga eum quidem</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Sit sint consectetur velit. Quisquam quos quisquam cupiditate</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <!-- <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
               <ul>
                 <li><a href="#">Suspenso 1</a></li>
                 <li class="dropdown">
@@ -116,7 +565,7 @@
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
-      </div>
+    </div>
     </header>
     <!-- End Header -->
 
@@ -248,15 +697,9 @@
       <section id="featured" class="featured">
         <div class="container">
           <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
               <div class="card">
-                <img
-                  src="../../assets/img/featured-1.jpg"
-                  class="card-img-top"
-                  alt=".."
-                />
+                <img src="../../assets/img/featured-1.jpg" class="card-img-top" alt=".." />
                 <div class="card-body">
                   <h5 class="card-title">
                     <a href="">No entanto, existem alguns deles</a>
@@ -269,15 +712,9 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
               <div class="card">
-                <img
-                  src="../../assets/img/featured-2.jpg"
-                  class="card-img-top"
-                  alt=".."
-                />
+                <img src="../../assets/img/featured-2.jpg" class="card-img-top" alt=".." />
                 <div class="card-body">
                   <h5 class="card-title"><a href="">Para nós e o tempo</a></h5>
                   <p class="card-text">
@@ -288,15 +725,9 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
               <div class="card">
-                <img
-                  src="../../assets/img/featured-3.jpg"
-                  class="card-img-top"
-                  alt=".."
-                />
+                <img src="../../assets/img/featured-3.jpg" class="card-img-top" alt=".." />
                 <div class="card-body">
                   <h5 class="card-title">
                     <a href="">Faça porque o que dói</a>
@@ -317,19 +748,11 @@
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials">
         <div class="container position-relative">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img
-                    src="../../assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
+                  <img src="../../assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" />
                   <h3>Saul Goodman</h3>
                   <h4>Ceo &amp; Founder</h4>
                   <p>
@@ -346,11 +769,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img
-                    src="../../assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
+                  <img src="../../assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" />
                   <h3>Sara Wilsson</h3>
                   <h4>Designer</h4>
                   <p>
@@ -367,11 +786,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img
-                    src="../../assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
+                  <img src="../../assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" />
                   <h3>Jena Karlis</h3>
                   <h4>Store Owner</h4>
                   <p>
@@ -388,11 +803,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img
-                    src="../../assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
+                  <img src="../../assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" />
                   <h3>Matt Brandon</h3>
                   <h4>Freelancer</h4>
                   <p>
@@ -407,11 +818,7 @@
 
               <div class="swiper-slide">
                 <div class="testimonial-item">
-                  <img
-                    src="../../assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
+                  <img src="../../assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" />
                   <h3>John Larson</h3>
                   <h4>Entrepreneur</h4>
                   <p>
@@ -452,227 +859,110 @@
 
           <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="../../assets/img/portfolio/portfolio-1.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-1.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 1"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img
-                src="../../assets/img/portfolio/portfolio-2.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-2.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="../../assets/img/portfolio/portfolio-3.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-3.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 2"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img
-                src="../../assets/img/portfolio/portfolio-4.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-4.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 2"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img
-                src="../../assets/img/portfolio/portfolio-5.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-5.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 2"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="../../assets/img/portfolio/portfolio-6.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-6.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img
-                src="../../assets/img/portfolio/portfolio-7.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-7.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 1"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img
-                src="../../assets/img/portfolio/portfolio-8.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-8.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img
-                src="../../assets/img/portfolio/portfolio-9.jpg"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="../../assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
-                <a
-                  href="../../assets/img/portfolio/portfolio-9.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="./portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                <a href="../../assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="./portfolio-details.html" class="details-link" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -692,11 +982,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
-                  <img
-                    src="../../assets/img/team/team-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="../../assets/img/team/team-1.jpg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -714,11 +1000,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
-                  <img
-                    src="../../assets/img/team/team-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="../../assets/img/team/team-2.jpg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -736,11 +1018,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
-                  <img
-                    src="../../assets/img/team/team-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="../../assets/img/team/team-3.jpg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -758,11 +1036,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div class="member">
                 <div class="member-img">
-                  <img
-                    src="../../assets/img/team/team-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
+                  <img src="../../assets/img/team/team-4.jpg" class="img-fluid" alt="" />
                   <div class="social">
                     <a href=""><i class="bi bi-twitter"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -880,124 +1154,88 @@
             </p>
           </div>
         </div> -->
-         <section id="contact" class="contact">
-          <div class="container">
-            <div class="row mt-5 justify-content-center">
-              <div class="col-lg-8">
-                <form
-                  id="formulario"
-                  method="post"
-                  role="form"
-                  class="php-email-form"
-                  onsubmit="enviarFormulario(); return false;" <!-- Evita o envio padrão do formulário -->
-                  <div class="mb-3">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      placeholder="Nome completo"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      placeholder="Melhor Email"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      placeholder="Sujeito"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="5"
-                      placeholder="Mensagem"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="text-center">
-                    <button type="submit" class="btn btn-primary">Enviar Email</button>
-                  </div>
-                </form>
-                <div id="mensagem-enviada" class="alert alert-success mt-3" style="display: none;">
-                  Sua mensagem foi enviada com sucesso. Obrigado!
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="row mt-5 justify-content-center">
+            <div class="col-lg-8">
+              <form id="formulario" method="post" role="form" class="php-email-form"
+                onsubmit="enviarFormulario(); return false;" <!-- Evita o envio padrão do formulário -->
+                <div class="mb-3">
+                  <input type="text" name="name" class="form-control" placeholder="Nome completo" required />
                 </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" name="email" placeholder="Melhor Email" required />
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" name="subject" placeholder="Sujeito" required />
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Enviar Email</button>
+                </div>
+              </form>
+              <div id="mensagem-enviada" class="alert alert-success mt-3" style="display: none;">
+                Sua mensagem foi enviada com sucesso. Obrigado!
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <h3>Prejuízo</h3>
-              <p>
-                E tanto aquele que foge deles, eles não são nada. Com grande
-                esforço físico, escolher um voo costuma ser a coisa mais
-                conveniente a fazer.
-              </p>
+      <!-- ======= Footer ======= -->
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <h3>Prejuízo</h3>
+                <p>
+                  E tanto aquele que foge deles, eles não são nada. Com grande
+                  esforço físico, escolher um voo costuma ser a coisa mais
+                  conveniente a fazer.
+                </p>
+              </div>
+            </div>
+
+            <div class="row footer-newsletter justify-content-center">
+              <div class="col-lg-6">
+                <form action="" method="post">
+                  <input type="email" name="email" placeholder="Enter your Email" /><input type="submit"
+                    value="Subscribe" />
+                </form>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
+        </div>
 
-          <div class="row footer-newsletter justify-content-center">
-            <div class="col-lg-6">
-              <form action="" method="post">
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter your Email"
-                /><input type="submit" value="Subscribe" />
-              </form>
-            </div>
-          </div>
-
-          <div class="social-links">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <div class="container footer-bottom clearfix">
+          <div class="copyright">
+            &copy; Direito autoral <strong><span>Vlava</span></strong>. Todos os direitos reservados
           </div>
         </div>
-      </div>
+      </footer>
+      <!-- End Footer -->
 
-      <div class="container footer-bottom clearfix">
-        <div class="copyright">
-          &copy; Direito autoral <strong><span>Vlava</span></strong
-          >. Todos os direitos reservados
-        </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+          class="bi bi-arrow-up-short"></i></a>
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+      <!-- Vendor JS Files -->
+      <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="../../assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Vendor JS Files -->
-    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="../../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="../../assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="../../assets/js/main.js"></script>
-  </body>
-</html>
+      <!-- Template Main JS File -->
+      <script src="../../assets/js/main.js"></script>
+</body>
