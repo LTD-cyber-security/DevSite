@@ -30,6 +30,18 @@ body.dark-mode {
   cursor: pointer;
 }
 
+#home .filter {
+  background: url('../gif/fondo.gif') no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .20;
+}
+
 /* Estilos para o ícone da lua no modo escuro */
 .moon-on {
   color: yellow;
