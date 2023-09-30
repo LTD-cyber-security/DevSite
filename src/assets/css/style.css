@@ -9,6 +9,10 @@
 # General
 --------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+
 /* Estilos para o tema claro */
 body.light-mode {
   background-color: #fff;
@@ -30,6 +34,8 @@ body.dark-mode {
   cursor: pointer;
 }
 
+
+
 #home .filter {
   background: url('../gif/fondo.gif') no-repeat;
   background-size: cover;
@@ -40,6 +46,57 @@ body.dark-mode {
   left: 0;
   right: 0;
   opacity: .20;
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+
+body.dark {
+  background: #292c35;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+
+}
+
+.checkbox:checked+.label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
 }
 
 /* Estilos para o ícone da lua no modo escuro */
