@@ -1,0 +1,101 @@
+Esse código CSS é responsável por estilizar a página "Escolha seu plano". Vamos analisar e explicar cada parte do código:
+
+- body: Estilos aplicados ao corpo da página.
+    background-color: Define a cor de fundo como "#0c1014" (um tom escuro de azul).
+    color: Define a cor do texto como branco.
+    width: Define a largura do corpo da página como 90%.
+    max-width: Define a largura máxima do corpo da página como 960px.
+    margin: Define as margens como 0 no topo e na base e "auto" nas laterais, centralizando a página horizontalmente.
+    font-family: Define a família de fontes para ser usada no texto.
+
+- .main-title: Estilos aplicados ao título principal.
+    font-size: Define o tamanho da fonte como 62px.
+    text-transform: Transforma o texto em letras maiúsculas (uppercase).
+    text-align: Centraliza o texto.
+    margin: Define a margem superior como 46px e a margem inferior como 0, criando um espaço entre o título e o cabeçalho.
+
+- .header: Estilos aplicados ao cabeçalho.
+    display: Define o layout do cabeçalho como flexível.
+    background-color: Define a cor de fundo do cabeçalho como "#05080a" (um tom escuro de azul).
+    padding: Define o preenchimento interno do cabeçalho como 16px.
+    justify-content: Distribui os itens do cabeçalho uniformemente entre o espaço disponível, criando espaços iguais entre os itens.
+    align-items: Centraliza verticalmente os itens do cabeçalho.
+
+- .header__logo: Estilos aplicados ao logotipo do cabeçalho.
+    font-size: Define o tamanho da fonte como 36px.
+    text-transform: Transforma o texto em letras maiúsculas (uppercase).
+    margin-left: Define a margem à esquerda como 16px.
+    letter-spacing: Define o espaçamento entre as letras como 2px.
+
+- .header__nav ul: Estilos aplicados à lista de navegação no cabeçalho.
+    display: Define o layout da lista como flexível.
+    list-style-type: Remove os marcadores da lista.
+    font-size: Define o tamanho da fonte como 18px.
+    gap: Define o espaçamento entre os itens da lista como 16px.
+
+- .header__nav a: Estilos aplicados aos links de navegação no cabeçalho.
+    color: Define a cor do texto como branco.
+    text-decoration: Remove a decoração de sublinhado padrão dos links.
+    padding: Define o preenchimento interno do link como 14px.
+    border-radius: Define um raio de borda de 6px, arredondando os cantos dos links.
+
+- .header__nav a:hover: Estilos aplicados aos links de navegação quando o cursor passa sobre eles.
+    text-decoration: Define um sublinhado ao passar o cursor sobre os links.
+
+- a.header__nav--active: Estilos aplicados ao link de navegação ativo.
+    background-color: Define a cor de fundo do link como "#cbe300" (amarelo).
+    color: Define a cor do texto como "#0c1014" (preto).
+    pointer-events: Impede a ação do link (clicar) quando estiver ativo.
+
+- .pricing: Estilos aplicados à seção de preços.
+    display: Define o layout da seção como flexível.
+    gap: Define o espaçamento entre os planos de preço como 16px.
+
+- .pricing-plan: Estilos aplicados a cada plano de preço.
+    flex: Define a proporção do espaço que cada plano deve ocupar na seção de preços.
+    background-color: Define a cor de fundo do plano como "#1f262c" (um tom escuro de azul).
+    padding: Define o preenchimento interno do plano como 30px.
+    border-radius: Define um raio de borda de 6px, arredondando os cantos do plano.
+    box-shadow: Adiciona uma sombra ao plano para criar um efeito tridimensional.
+    display: Define o layout do plano como flexível e em coluna.
+
+- .pricing-plan__title: Estilos aplicados ao título do plano.
+    text-transform: Transforma o texto em letras maiúsculas (uppercase).
+    border-bottom: Adiciona uma linha na parte inferior do título com a cor "#cbe300" (amarelo).
+    margin-top: Define a margem superior do título como 0.
+    padding-bottom: Define o preenchimento inferior do título como 10px.
+    letter-spacing: Define o espaçamento entre as letras como 2px.
+
+- .pricing-plan p: Estilos aplicados aos parágrafos dentro de cada plano de preço.
+    margin-top: Define a margem superior do parágrafo como 0.
+
+- .pricing-plan__price: Estilos aplicados ao preço de cada plano de preço.
+    font-size: Define o tamanho da fonte do preço como 34px.
+
+- .pricing-plan__features: Estilos aplicados à lista de recursos de cada plano de preço.
+    margin: Define a margem inferior como 35px e a margem superior e esquerda como 0.
+    color: Define a cor do texto dos recursos como "#b5b5b5" (um tom de cinza claro).
+    padding-left: Define o preenchimento interno à esquerda como 16px.
+    line-height: Define a altura da linha do texto como 1.8 (espaçamento entre linhas).
+    flex-grow: Faz com que a lista de recursos ocupe todo o espaço vertical disponível dentro do plano.
+
+- .pricing-plan__features li::marker: Estilos aplicados ao marcador (ponto) da lista de recursos.
+    color: Define a cor do marcador como "#cbe300" (amarelo).
+
+- .pricing-plan__cta: Estilos aplicados ao botão "Assine Já" de cada plano de preço.
+    text-decoration: Remove a decoração de sublinhado padrão do link.
+    color: Define a cor do texto como "#0c1014" (preto).
+    background-color: Define a cor de fundo do botão como "#cbe300" (amarelo).
+    border-radius: Define um raio de borda de 6px, arredondando os cantos do botão.
+    text-transform: Transforma o texto em letras maiúsculas (uppercase).
+    font-size: Define o tamanho da fonte como 16px.
+    font-weight: Define o peso da fonte como negrito.
+    padding: Define o preenchimento interno do botão.
+    text-align: Define o alinhamento do texto como centralizado.
+
+- .pricing-plan__cta:hover: Estilos aplicados ao botão "Assine Já" quando o cursor passa sobre ele.
+    outline: Define uma borda ao redor do botão quando está com foco (ao passar o cursor sobre ele).
+    background-color: Define a cor de fundo do botão como transparente (removendo a cor de fundo).
+    color: Define a cor do texto como branco.
+    
+Esse código CSS cria uma página "Escolha seu plano" com um cabeçalho, uma seção de preços e estilos para os elementos da página, como logotipo, links de navegação, planos de preço e botões. As cores e estilos escolhidos fornecem uma aparência moderna e atraente ao design da página.

@@ -1,0 +1,51 @@
+Vou analisar e explicar cada parte do código HTML:
+
+- <!DOCTYPE html>: Esta declaração define o tipo de documento como HTML5, a versão mais recente da linguagem HTML.
+
+- <html lang="pt-br">: A tag <html> é o elemento raiz de todo o documento HTML. O atributo lang="pt-br" especifica o idioma do conteúdo, que é o português do Brasil.
+
+- <head>: Esta é a seção de cabeçalho do documento, onde as meta informações e os recursos externos (como folhas de estilo e scripts) são definidos.
+
+- <meta charset="UTF-8" />: Essa meta tag define a codificação de caracteres do documento como UTF-8, que suporta uma ampla gama de caracteres e é amplamente utilizado para a internacionalização.
+
+- <meta name="viewport" content="width=device-width, initial-scale=1.0" />: Essa meta tag é utilizada para ajustar a escala e o tamanho do conteúdo para diferentes dispositivos. "width=device-width" faz com que o conteúdo se ajuste à largura do dispositivo e "initial-scale=1.0" define o fator de escala inicial como 1.0.
+
+- <meta name="author" content="Wesley Victor Pereira Silva" />: Essa meta tag fornece o nome do autor do documento.
+
+- <title>Escolha seu plano</title>: A tag <title> define o título da página que é exibido na barra de título do navegador ou na guia.
+
+- <link rel="stylesheet" href="style.css" />: Este é um link para um arquivo externo de folha de estilo (CSS) chamado "style.css", que será usado para estilizar a página.
+
+- <body>: A tag <body> contém todo o conteúdo visível da página, como texto, imagens, links, etc.
+
+- <header class="header">: Este é o cabeçalho da página. A classe "header" é usada para estilizar o cabeçalho por meio da folha de estilo CSS.
+
+- <div class="header__logo">MyServer</div>: Este é um elemento <div> que contém o texto "MyServer" e será estilizado como o logotipo do cabeçalho.
+
+- <nav class="header__nav">: Esta é a navegação do cabeçalho. A classe "header__nav" é usada para estilizar a navegação através do CSS.
+
+- <ul>: A tag <ul> é uma lista não ordenada que contém os itens de navegação.
+
+- <li><a href="#">Home</a></li>: Cada item de navegação é representado por uma tag <li> e contém um link representado pela tag <a>. O atributo "href" contém o link de destino, que no exemplo atual é "#" (uma âncora vazia).
+
+- <li><a href="#" class="header__nav--active">Planos</a></li>: Este item de navegação possui a classe "header__nav--active", que provavelmente será usada para estilizar o item de navegação atualmente ativo.
+
+- <h1 class="main-title">Escolha seu plano</h1>: Um título principal (<h1>) com a classe "main-title", que provavelmente será estilizado como o título principal da página.
+
+- <section class="pricing">: Esta é uma seção que contém os planos de preços. A classe "pricing" provavelmente será usada para estilizar essa seção.
+
+- <div class="pricing-plan">: Cada plano de preço é representado por um elemento <div> com a classe "pricing-plan".
+
+- <h2 class="pricing-plan__title">Essencial</h2>: Um título secundário (<h2>) com a classe "pricing-plan__title" que provavelmente será estilizado como o título do plano.
+
+- <p><span class="pricing-plan__price">R$ 3.95</span> / mês</p>: O preço do plano é representado por um elemento <p> com a classe "pricing-plan__price". O preço é envolvido em uma tag <span> para facilitar a estilização.
+
+- <ul class="pricing-plan__features">: Uma lista não ordenada que contém as características do plano. A classe "pricing-plan__features" provavelmente será usada para estilizar as características.
+
+- <li>1 Website</li>: Cada característica do plano é representada por um item de lista (<li>).
+
+- <a href="#" class="pricing-plan__cta">Assine Já</a>: Um link para ação de "Assinar Já" com a classe "pricing-plan__cta", que provavelmente será estilizado como um botão.
+
+- Os outros planos (Premium e Deluxe) são estruturados de forma semelhante, mas com informações diferentes para cada plano.
+
+Este código HTML cria uma página para mostrar diferentes planos de preços, com um cabeçalho de navegação e uma seção de preços. A estilização será aplicada por meio de uma folha de estilo CSS vinculada (style.css) para dar aparência e interatividade à página.
