@@ -28,6 +28,9 @@
   <!-- Inclua os arquivos da biblioteca FontAwesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
 
+  <!-- Incluir Poppins e OpenSans -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -40,7 +43,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  
   <link rel="stylesheet" href="carregamento/stylesCarregar.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -90,7 +96,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
     </div>
-    <div>
+    <div class="chk">
       <input type="checkbox" class="checkbox" id="chk" />
       <label class="label" for="chk">
         <i class="fas fa-moon"></i>
@@ -105,7 +111,21 @@
   </header><!-- End Header -->
 
   <main id="main">
-    <img src="assets/img/image.jpg" class="img-fluid" alt="">
+  <!-- Conteudos da Introdução -->
+      <div class="abertura">
+          <div class="container sla">
+              <div class="centralizar">
+                <div class="conteudo text-white">
+                  <h1>Cuidado para não cair em golpes, <strong>meu velho.</strong> </h1>
+                  <p>Desvende os perigos da internet com nossas informações sobre golpes, ataques, hackers e saiba mais.</p>
+                  
+                </div>
+                
+              </div>
+            </div>
+      </div>
+
+
     <!-- ======= About Section ======= -->
     <section id="inicio" class="about">
       <!-- deixar a imagem responsiva na section -->
@@ -122,22 +142,19 @@
         <div class="row content">
           <div class="col-lg-6">
 
-            <h2>O que é o projeto LTD de segurança?</h2>
-            <h3>Projeto de cunho estudantil dos alunos da faculdade Estácio de Sá de Florianópolis.<br>Dirigido pelo
-              Prof. Eng. Vagner Cordeiro, em associação ao projeto LTD e NID.</h3>
+            <h2 style="max-width: 20ch;">O que é o projeto LTD de segurança?</h2>
+            <h3 style="max-width: 45ch;" class="fs-2" >É um projeto acadêmico da Faculdade Estácio de Sá de Florianópolis, sob a liderança do Professor Engenheiro Vagner Cordeiro.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              A intenção do projeto é conscientizar os idosos sobre a segurança durante a navegação na internet, dando a
-              eles o conhecimento sobre os golpes e ataques existentes, metodo de prevenção aos mesmos e o que deve ser
-              feito caso sofra um golpe ou ataque. Dentre os nosso objetivos, estão:
+            <p class="fs-2 py-3">
+              Desenvolvemos o site com o <span style="color: #0d4291; font-weight: 800;"> propósito de alertar </span> os idosos sobre os riscos de navegar na internet, fornecendo informações sobre os principais <span style="color: #0d4291; font-weight: 800;"> golpes e ataques </span>, além de apresentar diversos métodos de prevenção,como por exemplo: 
             </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i>Garantir a veracidade das informações inseridas aqui.</li>
-              <li><i class="ri-check-double-line"></i>Repassar conhecimento de maneira compreensível e intuitiva.</li>
-              <li><i class="ri-check-double-line"></i>Gerar um repositório seguro para a pesquisa a seguranças.</li>
+            <ul style="position: relative; top: -15px;">
+              <li class="fs-3"><i class="ri-check-double-line"></i>Garantir a veracidade das informações inseridas aqui.</li>
+              <li class="fs-3"><i class="ri-check-double-line"></i>Repassar conhecimento de maneira compreensível e intuitiva.</li>
+              <li class="fs-3"><i class="ri-check-double-line"></i>Gerar um repositório seguro para a pesquisa a seguranças.</li>
             </ul>
-            <p class="fst-italic">
+            <p style="position: relative; top: -10px;" class="fst-italic">
               Junto do projeto, apresentamos aos ídosos, palestras com o objetivo de solidar o conhecimento a tudo
               apresentado.
             </p>

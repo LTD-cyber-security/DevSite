@@ -1,0 +1,53 @@
+/*Costumizado por Vinicius assets/img/image.jpg*/
+
+
+.abertura{
+
+
+  height: 72rem;
+  width: 100%;
+  background-image: url("../img/image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.centralizar{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 72rem;
+  position: relative;
+  top: 20px;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.conteudo h1{
+  font-family: "Poppins";
+  font-weight: 600;
+  max-width: 16ch;
+  font-size: 56px;
+  line-height: 1.125;
+}
+
+.conteudo h1 strong{
+  color: #a5e7ff;
+  
+}
+
+.conteudo p{
+  position: relative;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding-top: 10px;
+  max-width: 38ch;
+  font-size: 24px;
+  
+}
+
