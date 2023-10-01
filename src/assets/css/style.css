@@ -538,8 +538,6 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -826,7 +824,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(36, 32, 32);
 }
 
 .testimonials .section-header {
@@ -846,7 +844,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border: 6px solid rgb(0, 0, 0);
   margin: 0 auto;
 }
 
@@ -865,7 +863,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(68, 35, 35, 0.4);
   font-size: 26px;
 }
 
@@ -896,7 +894,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
 
