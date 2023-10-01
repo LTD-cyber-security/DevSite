@@ -34,6 +34,11 @@ body.dark-mode {
   cursor: pointer;
 }
 
+.chk{
+  position: relative;
+  left: -42px;
+}
+
 
 
 #home .filter {
@@ -514,12 +519,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  <<<<<<< HEAD height: 80vh;
   background: url('../img/hero-bg.jpg') top center;
-  =======height: 63vh;
   /* imagem responsiva */
   background: url("../img/hero-bg.jpg") 82%;
-  >>>>>>>gustavoRod background-size: cover;
   position: relative;
   margin: auto;
   padding: 0;

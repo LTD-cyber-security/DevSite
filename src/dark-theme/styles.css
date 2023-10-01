@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.chk{
+  position: relative !important;
+  left: -35px ;
+}
+
 * {
   margin: 0;
   padding: 0;
