@@ -682,6 +682,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 40px;
+  background: #07070723;
 }
 
 .services .icon-box {
@@ -697,11 +698,11 @@ section {
   height: 72px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 2px solid #85b0be;
+  border: 2px solid #ffffff;
 }
 
 .services .icon i {
-  color: #649aac;
+  color: #ffffff;
   font-size: 24px;
   line-height: 0;
 }
@@ -732,7 +733,7 @@ section {
 }
 
 .services .title a {
-  color: #052c3f;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -755,7 +756,7 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #85b0be;
+  background: #ffffff;
 }
 
 .services .icon-box:hover .icon i {
@@ -763,7 +764,7 @@ section {
 }
 
 .services .icon-box:hover .title a {
-  color: #85b0be;
+  color: #ffffff;
 }
 
 .services .icon-box:hover .iconalert {
