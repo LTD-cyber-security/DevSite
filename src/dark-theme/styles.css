@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 
-.chk{
+.chk {
   position: relative !important;
-  left: -35px ;
+  left: -35px;
 }
-
-=======
 
 * {
   margin: 0;
@@ -26,7 +24,7 @@ body {
 }
 
 body.dark {
-  background: #292c35;
+  background: #000000;
   color: #fff;
   /* Altera a cor do texto quando o modo escuro está ativado */
 }
@@ -37,7 +35,7 @@ body.dark {
 }
 
 .label {
-  background-color: #111;
+  background-color: #000000;
   border-radius: 50px;
   cursor: pointer;
   display: flex;
@@ -77,21 +75,21 @@ body.dark {
 /* Estilos para o modo claro */
 body {
   background-color: #fafafa;
-  color: #000;
+  color: #000000;
   /* Cor do texto no modo claro */
   transition: background 0.2s linear, color 0.2s linear;
 }
 
 /* Estilos para o modo escuro */
 body.dark {
-  background: #292c35;
+  background: #000000;
   color: #fff;
   /* Cor do texto no modo escuro */
 }
 
 /* Estilos para inverter as cores dos elementos quando o modo escuro estiver ativado */
 body.dark .section-bg {
-  background-color: #000;
+  background-color: #000000;
   /* Cor de fundo da seção invertida */
   color: #fff;
   /* Cor do texto na seção invertida */

@@ -11,7 +11,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-
+/* Estilo para os links da navbar com cor vermelha */
+.navbar ul li a {
+  color: rgb(255, 255, 255);
+}
 
 /* Estilos para o tema claro */
 body.light-mode {
