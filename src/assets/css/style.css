@@ -34,7 +34,7 @@ body.dark-mode {
   cursor: pointer;
 }
 
-.chk{
+.chk {
   position: relative;
   left: -42px;
 }
@@ -849,7 +849,7 @@ section {
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgb(0, 0, 0);
+  border: 6px solid rgb(90, 68, 68);
   margin: 0 auto;
 }
 
