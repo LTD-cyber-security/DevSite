@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-
 .chk {
   position: relative !important;
   left: -35px;
@@ -46,6 +45,19 @@ body.dark {
   height: 26px;
   width: 50px;
   transform: scale(1.5);
+  transition: transform 0.2s linear;
+  /* Adicione uma transição para suavizar a animação */
+}
+
+/* Adicione a animação 3D aqui */
+.label.rotate {
+  transform: scale(1.5) rotateY(180deg);
+  /* Gira o elemento em 3D */
+}
+
+.checkbox:checked+.label {
+  /* Quando o checkbox está marcado, aplique a classe .rotate para iniciar a animação */
+  transform: scale(1.5) rotateY(180deg);
 }
 
 .label .ball {
@@ -101,3 +113,48 @@ body.dark .section-bg h2 {
 }
 
 /* Adicione mais regras CSS para outros elementos que você deseja inverter */
+
+/* ... Seu CSS anterior ... */
+
+/* Estilos para a animação 3D */
+.label.rotate {
+  animation: rotateAnimation 0.5s linear;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: scale(1.5) rotateY(0deg);
+  }
+
+  100% {
+    transform: scale(1.5) rotateY(180deg);
+  }
+}
+
+/* Estilos para o modo claro */
+body {
+  background-color: #fafafa;
+  color: #000000;
+  /* Cor do texto no modo claro */
+  transition: background 0.2s linear, color 0.2s linear;
+}
+
+/* Estilos para o modo escuro */
+body.dark {
+  background: #000000;
+  color: #fff;
+  /* Cor do texto no modo escuro */
+}
+
+/* Estilos para inverter as cores dos elementos quando o modo escuro estiver ativado */
+body.dark .section-bg {
+  background-color: #000000;
+  /* Cor de fundo da seção invertida */
+  color: #fff;
+  /* Cor do texto na seção invertida */
+}
+
+body.dark .section-bg h2 {
+  color: #f1c40f;
+  /* Cor do título na seção invertida */
+}
