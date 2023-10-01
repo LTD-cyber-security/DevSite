@@ -34,6 +34,11 @@ body.dark-mode {
   cursor: pointer;
 }
 
+.chk{
+  position: relative;
+  left: -42px;
+}
+
 
 
 #home .filter {
