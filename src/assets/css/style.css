@@ -9,6 +9,17 @@
 # General
 --------------------------------------------------------------*/
 
+.preloader-body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+
+}
+
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 /* Estilo para os links da navbar com cor vermelha */
@@ -41,6 +52,45 @@ body.dark-mode {
 .chk {
   position: relative;
   left: -42px;
+}
+
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.mfp-loading.mfp-figure {
+  display: none;
+}
+
+.mfp-hide {
+  display: none !important;
+}
+
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044;
+}
+
+.mfp-preloader a {
+  color: #CCC;
+}
+
+.mfp-preloader a:hover {
+  color: #FFF;
+}
+
+.mfp-s-ready .mfp-preloader {
+  display: none;
 }
 
 
