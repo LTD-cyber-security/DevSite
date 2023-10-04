@@ -84,13 +84,21 @@
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
+  let linkHeard = document.querySelectorAll('.nav-link') //Get attribute <a>
   let selectHeader = select('#header');
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
+        //looping all attribute
         selectHeader.classList.add('header-scrolled');
+        linkHeard.forEach((item) => {
+          item.classList.add('repair')
+        })
       } else {
         selectHeader.classList.remove('header-scrolled');
+        linkHeard.forEach((item) => {
+          item.classList.remove('repair')
+        })
       }
     };
     window.addEventListener('load', headerScrolled);
