@@ -750,21 +750,24 @@ a:hover {
 /*===================
 	Latest Works CSS
 =====================*/
-.latest-works {}
+
 
 .latest-works .works-menu {
+	display: flex;
+	justify-content: space-around;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 80px;
+	font-size: 24px;
+	padding-bottom: 30px;
+	
+	
 }
 
-.latest-works .works-menu ul {}
+.latest-works .works-menu ul {
+	padding-top: 20px;
+}
 
 .latest-works .works-menu ul li {
-	font-size: 15px;
-	color: #888;
-	display: inline-block;
-	margin-right: 35px;
+
 }
 
 .latest-works .works-menu ul li:hover:before,
@@ -2630,6 +2633,14 @@ a:hover {
 
 }
 
+
 /*===================
 	End Footer CSS
 =====================*/
+
+/*Add extras*/
+
+div .row{
+	display: flex;
+	justify-content: space-around;
+}
